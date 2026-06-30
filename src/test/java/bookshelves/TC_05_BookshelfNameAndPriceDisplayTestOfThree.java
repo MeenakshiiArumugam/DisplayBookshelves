@@ -1,5 +1,5 @@
 package bookshelves;
-
+import utils.ExcelUtils;
 import org.testng.annotations.Test;
 import base.BaseTest;
 import org.furniture.pages.BookshelvesPage;
@@ -37,7 +37,7 @@ public class TC_05_BookshelfNameAndPriceDisplayTestOfThree extends BaseTest {
             // ✅ Fetch top 3 results
             List<String> names = page.getTopThreeBookshelfNames();
             List<String> prices = page.getTopThreeBookshelfPrices();
-
+            ExcelUtils.writeBookshelfData(names, prices);
             for (int i = 0; i < 3; i++) {
                 String result = "Bookshelf " + (i+1) +
                         " → Name: " + names.get(i) +
