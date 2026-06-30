@@ -466,3 +466,119 @@ Session ID: 43aab6f72df597b32b09898e62397064
 2026-06-30 12:35:57 INFO  utils.LoggerManager - ===== Test Finished =====
 2026-06-30 15:54:02 INFO  utils.LoggerManager - ===== Test Started =====
 2026-06-30 15:54:02 INFO  utils.LoggerManager - Initializing browser: edge
+2026-06-30 20:33:52 INFO  utils.LoggerManager - ===== Test Started =====
+2026-06-30 20:33:52 INFO  utils.LoggerManager - Initializing browser: chrome
+2026-06-30 20:33:55 INFO  utils.LoggerManager - ===== Test Started =====
+2026-06-30 20:33:55 INFO  utils.LoggerManager - Initializing browser: edge
+2026-06-30 20:33:59 INFO  utils.LoggerManager - ===== Test Started =====
+2026-06-30 20:33:59 INFO  utils.LoggerManager - Initializing browser: edge
+2026-06-30 20:34:01 INFO  utils.LoggerManager - Chrome browser launched
+2026-06-30 20:34:16 INFO  utils.LoggerManager - Navigated to: https://www.urbanladder.com/
+2026-06-30 20:34:16 INFO  utils.LoggerManager - Starting TC_03 - Filter by Open Storage
+2026-06-30 20:34:16 INFO  utils.LoggerManager - Waiting for search box
+2026-06-30 20:34:17 INFO  utils.LoggerManager - Clicking search box
+2026-06-30 20:34:17 INFO  utils.LoggerManager - Typing Bookshelves
+2026-06-30 20:34:18 INFO  utils.LoggerManager - Pressing Enter
+2026-06-30 20:34:18 INFO  utils.LoggerManager - Bookshelves searched
+2026-06-30 20:34:18 INFO  utils.LoggerManager - Clicking All Filters button
+2026-06-30 20:34:19 INFO  utils.LoggerManager - Filters panel opened successfully
+2026-06-30 20:34:19 INFO  utils.LoggerManager - Filters opened
+2026-06-30 20:34:19 INFO  utils.LoggerManager - Scrolling inside All Filters panel
+2026-06-30 20:34:19 INFO  utils.LoggerManager - Clicking Storage Type
+2026-06-30 20:34:20 INFO  utils.LoggerManager - Storage Type expanded
+2026-06-30 20:34:20 INFO  utils.LoggerManager - Selecting Open Storage
+2026-06-30 20:34:20 INFO  utils.LoggerManager - Open Storage selected successfully ✅
+2026-06-30 20:34:20 INFO  utils.LoggerManager - Open Storage selected
+2026-06-30 20:34:20 INFO  utils.LoggerManager - Clicking Apply Filter button
+2026-06-30 20:34:20 INFO  utils.LoggerManager - Filters applied successfully ✅
+2026-06-30 20:34:20 INFO  utils.LoggerManager - Filters applied
+2026-06-30 20:34:20 INFO  utils.LoggerManager - TC_03 Completed Successfully
+2026-06-30 20:34:25 INFO  utils.LoggerManager - ===== Test Finished =====
+2026-06-30 20:35:23 INFO  utils.LoggerManager - ===== Test Started =====
+2026-06-30 20:35:23 INFO  utils.LoggerManager - Initializing browser: chrome
+2026-06-30 20:35:28 INFO  utils.LoggerManager - Chrome browser launched
+2026-06-30 20:35:36 INFO  utils.LoggerManager - Navigated to: https://www.urbanladder.com/
+2026-06-30 20:35:36 INFO  utils.LoggerManager - Starting TC_03 - Filter by Open Storage
+2026-06-30 20:35:36 INFO  utils.LoggerManager - Waiting for search box
+2026-06-30 20:35:37 INFO  utils.LoggerManager - Clicking search box
+2026-06-30 20:35:38 INFO  utils.LoggerManager - Typing Bookshelves
+2026-06-30 20:35:38 INFO  utils.LoggerManager - Pressing Enter
+2026-06-30 20:35:39 INFO  utils.LoggerManager - Bookshelves searched
+2026-06-30 20:35:39 INFO  utils.LoggerManager - Clicking All Filters button
+2026-06-30 20:35:39 INFO  utils.LoggerManager - Filters panel opened successfully
+2026-06-30 20:35:39 INFO  utils.LoggerManager - Filters opened
+2026-06-30 20:35:39 INFO  utils.LoggerManager - Scrolling inside All Filters panel
+2026-06-30 20:35:39 INFO  utils.LoggerManager - Clicking Storage Type
+2026-06-30 20:35:40 INFO  utils.LoggerManager - Storage Type expanded
+2026-06-30 20:35:40 INFO  utils.LoggerManager - Selecting Open Storage
+2026-06-30 20:35:40 INFO  utils.LoggerManager - Open Storage selected successfully ✅
+2026-06-30 20:35:40 INFO  utils.LoggerManager - Open Storage selected
+2026-06-30 20:35:40 INFO  utils.LoggerManager - Clicking Apply Filter button
+2026-06-30 20:35:40 INFO  utils.LoggerManager - Filters applied successfully ✅
+2026-06-30 20:35:40 INFO  utils.LoggerManager - Filters applied
+2026-06-30 20:35:40 INFO  utils.LoggerManager - TC_03 Completed Successfully
+2026-06-30 20:35:44 INFO  utils.LoggerManager - ===== Test Finished =====
+2026-06-30 21:02:43 INFO  utils.LoggerManager - ===== Test Started =====
+2026-06-30 21:02:43 INFO  utils.LoggerManager - Initializing browser: edge
+2026-06-30 21:05:37 INFO  utils.LoggerManager - ===== Test Started =====
+2026-06-30 21:05:37 INFO  utils.LoggerManager - Initializing browser: edge
+2026-06-30 21:13:42 INFO  utils.LoggerManager - ===== Test Started =====
+2026-06-30 21:13:42 INFO  utils.LoggerManager - Initializing browser: edge
+2026-06-30 21:15:36 INFO  utils.LoggerManager - ===== Test Started =====
+2026-06-30 21:15:36 INFO  utils.LoggerManager - Initializing browser: edge
+2026-06-30 21:16:04 INFO  utils.LoggerManager - ===== Test Started =====
+2026-06-30 21:16:04 INFO  utils.LoggerManager - Initializing browser: edge
+2026-06-30 21:16:53 INFO  utils.LoggerManager - ===== Test Started =====
+2026-06-30 21:16:53 INFO  utils.LoggerManager - Initializing browser: edge
+2026-06-30 21:18:49 INFO  utils.LoggerManager - ===== Test Started =====
+2026-06-30 21:18:49 INFO  utils.LoggerManager - Initializing browser: edge
+2026-06-30 21:25:07 INFO  utils.LoggerManager - ===== Test Started =====
+2026-06-30 21:25:07 INFO  utils.LoggerManager - Initializing browser: edge
+2026-06-30 21:27:19 INFO  utils.LoggerManager - ===== Test Started =====
+2026-06-30 21:27:19 INFO  utils.LoggerManager - Initializing browser: chrome
+2026-06-30 21:27:27 INFO  utils.LoggerManager - Chrome browser launched
+2026-06-30 21:27:51 INFO  utils.LoggerManager - Navigated to: https://www.urbanladder.com/
+2026-06-30 21:27:51 INFO  utils.LoggerManager - Starting TC_05
+2026-06-30 21:27:51 INFO  utils.LoggerManager - Waiting for search box
+2026-06-30 21:27:51 INFO  utils.LoggerManager - Clicking search box
+2026-06-30 21:27:51 INFO  utils.LoggerManager - Typing Bookshelves
+2026-06-30 21:27:52 INFO  utils.LoggerManager - Pressing Enter
+2026-06-30 21:27:52 INFO  utils.LoggerManager - Clicking All Filters button
+2026-06-30 21:27:53 INFO  utils.LoggerManager - Filters panel opened successfully
+2026-06-30 21:27:53 INFO  utils.LoggerManager - Scrolling inside All Filters panel
+2026-06-30 21:27:53 INFO  utils.LoggerManager - Clicking Storage Type
+2026-06-30 21:27:53 INFO  utils.LoggerManager - Storage Type expanded
+2026-06-30 21:27:53 INFO  utils.LoggerManager - Selecting Open Storage
+2026-06-30 21:27:53 INFO  utils.LoggerManager - Open Storage selected successfully ✅
+2026-06-30 21:27:53 INFO  utils.LoggerManager - Clicking Apply Filter button
+2026-06-30 21:27:53 INFO  utils.LoggerManager - Filters applied successfully ✅
+2026-06-30 21:28:24 ERROR utils.LoggerManager - Test failed: Expected condition failed: waiting for visibility of all [] (tried for 15 second(s) with 500 milliseconds interval)
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.103, chrome: {chromedriverVersion: 149.0.7827.155 (07b52360cc1..., userDataDir: C:\Users\2497749\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58352}, goog:processID: 32044, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58352/devtoo..., se:cdpVersion: 149.0.7827.103, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b9dced6c79133aa66a09f8f15a804a49
+2026-06-30 21:28:29 INFO  utils.LoggerManager - ===== Test Finished =====
+2026-06-30 22:05:06 INFO  utils.LoggerManager - ===== Test Started =====
+2026-06-30 22:05:06 INFO  utils.LoggerManager - Initializing browser: chrome
+2026-06-30 22:05:09 INFO  utils.LoggerManager - Chrome browser launched
+2026-06-30 22:05:22 INFO  utils.LoggerManager - Navigated to: https://www.urbanladder.com/
+2026-06-30 22:05:22 INFO  utils.LoggerManager - Starting TC_05
+2026-06-30 22:05:22 INFO  utils.LoggerManager - Waiting for search box
+2026-06-30 22:05:22 INFO  utils.LoggerManager - Clicking search box
+2026-06-30 22:05:23 INFO  utils.LoggerManager - Typing Bookshelves
+2026-06-30 22:05:23 INFO  utils.LoggerManager - Pressing Enter
+2026-06-30 22:05:23 INFO  utils.LoggerManager - Clicking All Filters button
+2026-06-30 22:05:24 INFO  utils.LoggerManager - Filters panel opened successfully
+2026-06-30 22:05:24 INFO  utils.LoggerManager - Scrolling inside All Filters panel
+2026-06-30 22:05:24 INFO  utils.LoggerManager - Clicking Storage Type
+2026-06-30 22:05:24 INFO  utils.LoggerManager - Storage Type expanded
+2026-06-30 22:05:24 INFO  utils.LoggerManager - Selecting Open Storage
+2026-06-30 22:05:24 INFO  utils.LoggerManager - Open Storage selected successfully ✅
+2026-06-30 22:05:24 INFO  utils.LoggerManager - Clicking Apply Filter button
+2026-06-30 22:05:24 INFO  utils.LoggerManager - Filters applied successfully ✅
+2026-06-30 22:05:25 INFO  utils.LoggerManager - Bookshelf 1 → Name: Paxton Solid Wood Bookshelf in Amber Walnut Finish | Price: ₹7,999
+2026-06-30 22:05:25 INFO  utils.LoggerManager - Bookshelf 2 → Name: Tetris Solid Wood Bookshelf in Walnut Finish | Price: ₹11,799
+2026-06-30 22:05:25 INFO  utils.LoggerManager - Bookshelf 3 → Name: Austen Solid Wood Bookshelf in Amber Walnut Finish | Price: ₹6,999
+2026-06-30 22:05:25 INFO  utils.LoggerManager - TC_05 Completed Successfully ✅
+2026-06-30 22:05:29 INFO  utils.LoggerManager - ===== Test Finished =====

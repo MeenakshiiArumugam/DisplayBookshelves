@@ -6,6 +6,8 @@ import org.openqa.selenium.support.PageFactory;
 
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.openqa.selenium.support.ui.ExpectedConditions;
+import java.util.List;
+
 
 import utils.LoggerManager;
 
@@ -51,9 +53,13 @@ public class BookshelvesPage {
 
     @FindBy(xpath = "//div[@role='tab' and @aria-label='Storage Type']")
     WebElement storageTypeSection;*/
+    // ✅ Bookshelf names
+    @FindBy(xpath = "//h2[contains(text(),'Bookshelf')]")
+    java.util.List<WebElement> bookshelfNames;
 
-
-
+    // ✅ Bookshelf prices
+    @FindBy(xpath ="//div[@role='link']//div[contains(text(),'₹')]")
+    java.util.List<WebElement> bookshelfPrices;
 
 
     // ✅ Action
@@ -214,6 +220,7 @@ public class BookshelvesPage {
         // ✅ Wait for filter panel to disappear
         wait.until(ExpectedConditions.invisibilityOf(applyBtn));
     }
+
     public void openFilters() {
 
         LoggerManager.info("Clicking All Filters button");
@@ -225,4 +232,27 @@ public class BookshelvesPage {
 
         LoggerManager.info("Filters panel opened successfully");
     }
+
+
+    // ✅ Get top 3 bookshelf names
+    public java.util.List<String> getTopThreeBookshelfNames() {
+
+        wait.until(ExpectedConditions.visibilityOfAllElements(bookshelfNames));
+
+        return bookshelfNames.stream()
+                .limit(3)
+                .map(WebElement::getText)
+                .collect(java.util.stream.Collectors.toList());
+
+    }
+
+    public List<String> getTopThreeBookshelfPrices() {
+
+        return bookshelfPrices.stream()
+                .filter(WebElement::isDisplayed)   // ✅ KEY FIX
+                .limit(3)
+                .map(WebElement::getText)
+                .collect(java.util.stream.Collectors.toList());
+    }
 }
+
