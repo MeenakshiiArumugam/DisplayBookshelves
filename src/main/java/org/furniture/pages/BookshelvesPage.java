@@ -22,27 +22,27 @@ public class BookshelvesPage {
         wait = new WebDriverWait(driver, Duration.ofSeconds(15));
     }
 
-    // SEARCH BOX
+    // ✅ ✅ CORRECT SEARCH BOX
     @FindBy(id = "searchInput")
     WebElement searchBox;
 
-    // Result title
+    // ✅ Result title
     @FindBy(xpath = "//h1[contains(text(),'Bookshelves')]")
     WebElement title;
 
-    //  All Filters button
+    // ✅ All Filters button
     @FindBy(className = "qJoGr")
     WebElement allFiltersBtn;
 
-    //  Price section
+    // ✅ Price section
     @FindBy(xpath = "//div[@aria-label='Price']")
     WebElement priceSection;
 
-    // Max price input (IMPORTANT)
+    // ✅ Max price input (IMPORTANT)
     @FindBy(xpath = "//input[@type='text' and contains(@aria-label,'Maximum')]")
     WebElement maxPriceInput;
 
-    // Apply filter button
+    // ✅ Apply filter button
     @FindBy(xpath = "//button[.//text()='Apply' or contains(.,'Apply')]")
     WebElement applyFilterBtn;
 
@@ -52,7 +52,11 @@ public class BookshelvesPage {
     @FindBy(xpath = "//div[@role='tab' and @aria-label='Storage Type']")
     WebElement storageTypeSection;*/
 
-    //  Action
+
+
+
+
+    // ✅ Action
     public void searchBookshelves() {
 
         LoggerManager.info("Waiting for search box");
@@ -121,7 +125,7 @@ public class BookshelvesPage {
         LoggerManager.info("Price filter applied successfully");
     }
 
-    public void selectOpenStorage() {
+    /*public void selectOpenStorage() {
 
         LoggerManager.info("Scrolling inside filter panel to find Storage Type");
 
@@ -151,22 +155,64 @@ public class BookshelvesPage {
         openStorage.click();
 
         LoggerManager.info("Open Storage selected successfully");
+    }*/
+
+    public void selectOpenStorage() {
+
+        LoggerManager.info("Scrolling inside All Filters panel");
+
+        // ✅ Optional scroll inside panel
+        ((JavascriptExecutor) driver).executeScript(
+                "document.querySelector(\"div[role='dialog']\").scrollTop=300"
+        );
+
+        // ✅ Step 1: Click Storage Type dropdown
+        LoggerManager.info("Clicking Storage Type");
+
+        WebElement storageType = wait.until(
+                ExpectedConditions.elementToBeClickable(
+                        By.xpath("(//span[text()='Storage Type'])[2]")
+                )
+        );
+
+        ((JavascriptExecutor) driver)
+                .executeScript("arguments[0].click();", storageType);
+
+        LoggerManager.info("Storage Type expanded");
+
+        // ✅ Step 2: Select Open Storage checkbox
+        LoggerManager.info("Selecting Open Storage");
+
+        WebElement openStorage = wait.until(
+                ExpectedConditions.elementToBeClickable(
+                        By.xpath("//div[contains(text(),'Open Storage')]")
+                )
+        );
+
+        ((JavascriptExecutor) driver)
+                .executeScript("arguments[0].click();", openStorage);
+
+        LoggerManager.info("Open Storage selected successfully ✅");
     }
 
 
     public void applyFilters() {
 
-        LoggerManager.info("Clicking Apply button");
+        LoggerManager.info("Clicking Apply Filter button");
 
         WebElement applyBtn = wait.until(
-                ExpectedConditions.visibilityOfElementLocated(
-                        By.xpath("//button[contains(.,'Apply')]")
-                ));
+                ExpectedConditions.elementToBeClickable(
+                        By.xpath("//button[@class='zTzmw undefined']")
+                )
+        );
 
         ((JavascriptExecutor) driver)
                 .executeScript("arguments[0].click();", applyBtn);
 
-        LoggerManager.info("Filters applied successfully");
+        LoggerManager.info("Filters applied successfully ✅");
+
+        // ✅ Wait for filter panel to disappear
+        wait.until(ExpectedConditions.invisibilityOf(applyBtn));
     }
     public void openFilters() {
 

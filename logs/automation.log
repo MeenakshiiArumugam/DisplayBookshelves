@@ -464,3 +464,5 @@ Session ID: 43aab6f72df597b32b09898e62397064
 2026-06-30 12:35:53 INFO  utils.LoggerManager - Clicking Apply button
 2026-06-30 12:35:53 INFO  utils.LoggerManager - Price filter applied successfully
 2026-06-30 12:35:57 INFO  utils.LoggerManager - ===== Test Finished =====
+2026-06-30 15:54:02 INFO  utils.LoggerManager - ===== Test Started =====
+2026-06-30 15:54:02 INFO  utils.LoggerManager - Initializing browser: edge
