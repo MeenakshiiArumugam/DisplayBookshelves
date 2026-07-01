@@ -904,3 +904,20 @@ Session ID: 43aab6f72df597b32b09898e62397064
 2026-07-01 09:58:39 INFO  utils.LoggerManager - Clicking Anniversary card
 2026-07-01 09:58:39 INFO  utils.LoggerManager - Anniversary card selected successfully
 2026-07-01 09:58:42 INFO  utils.LoggerManager - ===== Test Finished =====
+2026-07-01 10:11:08 INFO  utils.LoggerManager - ===== Test Started =====
+2026-07-01 10:11:08 INFO  utils.LoggerManager - Initializing browser: chrome
+2026-07-01 10:11:12 INFO  utils.LoggerManager - Chrome browser launched
+2026-07-01 10:11:20 INFO  utils.LoggerManager - Navigated to: https://www.urbanladder.com/
+2026-07-01 10:11:20 INFO  utils.LoggerManager - Starting TC_21
+2026-07-01 10:11:21 INFO  utils.LoggerManager - Clicking Gift Cards link
+2026-07-01 10:11:28 INFO  utils.LoggerManager - Switched to Gift Card window
+2026-07-01 10:11:32 INFO  utils.LoggerManager - ===== Test Finished =====
+2026-07-01 10:11:32 INFO  utils.LoggerManager - ===== Test Started =====
+2026-07-01 10:11:32 INFO  utils.LoggerManager - Initializing browser: chrome
+2026-07-01 10:11:34 INFO  utils.LoggerManager - Chrome browser launched
+2026-07-01 10:11:42 INFO  utils.LoggerManager - Navigated to: https://www.urbanladder.com/
+2026-07-01 10:11:42 INFO  utils.LoggerManager - Starting TC_22
+2026-07-01 10:11:42 INFO  utils.LoggerManager - Clicking Gift Cards link
+2026-07-01 10:11:47 INFO  utils.LoggerManager - Switched to Gift Card window
+2026-07-01 10:11:47 INFO  utils.LoggerManager - Anniversary card selected
+2026-07-01 10:11:50 INFO  utils.LoggerManager - ===== Test Finished =====
