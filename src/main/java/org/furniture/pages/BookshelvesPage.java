@@ -7,7 +7,7 @@ import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import java.util.List;
-
+import org.openqa.selenium.WebElement;
 
 import utils.LoggerManager;
 
@@ -24,27 +24,27 @@ public class BookshelvesPage {
         wait = new WebDriverWait(driver, Duration.ofSeconds(15));
     }
 
-    // ✅ ✅ CORRECT SEARCH BOX
+    // CORRECT SEARCH BOX
     @FindBy(id = "searchInput")
     WebElement searchBox;
 
-    // ✅ Result title
+    // Result title
     @FindBy(xpath = "//h1[contains(text(),'Bookshelves')]")
     WebElement title;
 
-    // ✅ All Filters button
+    // All Filters button
     @FindBy(className = "qJoGr")
     WebElement allFiltersBtn;
 
-    // ✅ Price section
+    // Price section
     @FindBy(xpath = "//div[@aria-label='Price']")
     WebElement priceSection;
 
-    // ✅ Max price input (IMPORTANT)
+    // Max price input (IMPORTANT)
     @FindBy(xpath = "//input[@type='text' and contains(@aria-label,'Maximum')]")
     WebElement maxPriceInput;
 
-    // ✅ Apply filter button
+    // Apply filter button
     @FindBy(xpath = "//button[.//text()='Apply' or contains(.,'Apply')]")
     WebElement applyFilterBtn;
 
@@ -53,16 +53,24 @@ public class BookshelvesPage {
 
     @FindBy(xpath = "//div[@role='tab' and @aria-label='Storage Type']")
     WebElement storageTypeSection;*/
-    // ✅ Bookshelf names
+    // Bookshelf names
     @FindBy(xpath = "//h2[contains(text(),'Bookshelf')]")
     java.util.List<WebElement> bookshelfNames;
 
-    // ✅ Bookshelf prices
+    // Bookshelf prices
     @FindBy(xpath ="//div[@role='link']//div[contains(text(),'₹')]")
     java.util.List<WebElement> bookshelfPrices;
 
+    @FindBy(xpath = "//h1 | //div[contains(@class,'product-title')]")
+    WebElement productTitle;
 
-    // ✅ Action
+
+    @FindBy(xpath = "//button[text() = 'Add to Cart']")
+    WebElement addToCartButton;
+
+
+
+    // Action
     public void searchBookshelves() {
 
         LoggerManager.info("Waiting for search box");
@@ -113,7 +121,7 @@ public class BookshelvesPage {
         maxPriceInput.clear();
         maxPriceInput.sendKeys("15000");
 
-        // ✅ IMPORTANT: trigger blur event
+        // IMPORTANT: trigger blur event
         maxPriceInput.sendKeys(Keys.TAB);
 
         LoggerManager.info("Waiting for UI to update after entering price");
@@ -131,48 +139,16 @@ public class BookshelvesPage {
         LoggerManager.info("Price filter applied successfully");
     }
 
-    /*public void selectOpenStorage() {
-
-        LoggerManager.info("Scrolling inside filter panel to find Storage Type");
-
-        // ✅ Scroll inside panel using JS (IMPORTANT FIX)
-        //((JavascriptExecutor) driver).executeScript(
-         //       "document.querySelector('div[style*=\"overflow\"]').scrollTop=500"
-        //);
-
-        LoggerManager.info("Locating Storage Type section");
-
-        WebElement storageType = wait.until(
-                ExpectedConditions.elementToBeClickable(
-                        By.xpath("//div[text()='Storage Type']")
-                ));
-
-        storageType.click();
-
-        LoggerManager.info("Storage Type expanded");
-
-        LoggerManager.info("Selecting Open Storage");
-
-        WebElement openStorage = wait.until(
-                ExpectedConditions.elementToBeClickable(
-                        By.xpath("//div[@role='checkbox']//div[text()='Open Storage']")
-                ));
-
-        openStorage.click();
-
-        LoggerManager.info("Open Storage selected successfully");
-    }*/
-
     public void selectOpenStorage() {
 
         LoggerManager.info("Scrolling inside All Filters panel");
 
-        // ✅ Optional scroll inside panel
+        // Optional scroll inside panel
         ((JavascriptExecutor) driver).executeScript(
                 "document.querySelector(\"div[role='dialog']\").scrollTop=300"
         );
 
-        // ✅ Step 1: Click Storage Type dropdown
+        // Step 1: Click Storage Type dropdown
         LoggerManager.info("Clicking Storage Type");
 
         WebElement storageType = wait.until(
@@ -186,7 +162,7 @@ public class BookshelvesPage {
 
         LoggerManager.info("Storage Type expanded");
 
-        // ✅ Step 2: Select Open Storage checkbox
+        //Step 2: Select Open Storage checkbox
         LoggerManager.info("Selecting Open Storage");
 
         WebElement openStorage = wait.until(
@@ -217,7 +193,7 @@ public class BookshelvesPage {
 
         LoggerManager.info("Filters applied successfully ✅");
 
-        // ✅ Wait for filter panel to disappear
+        //Wait for filter panel to disappear
         wait.until(ExpectedConditions.invisibilityOf(applyBtn));
     }
 
@@ -234,7 +210,7 @@ public class BookshelvesPage {
     }
 
 
-    // ✅ Get top 3 bookshelf names
+    //Get top 3 bookshelf names
     public java.util.List<String> getTopThreeBookshelfNames() {
 
         wait.until(ExpectedConditions.visibilityOfAllElements(bookshelfNames));
@@ -245,7 +221,7 @@ public class BookshelvesPage {
                 .collect(java.util.stream.Collectors.toList());
 
     }
-
+    //Get top 3 bookshelf price
     public List<String> getTopThreeBookshelfPrices() {
 
         return bookshelfPrices.stream()
@@ -254,5 +230,39 @@ public class BookshelvesPage {
                 .map(WebElement::getText)
                 .collect(java.util.stream.Collectors.toList());
     }
+
+    public void clickFirstProduct() {
+
+        wait.until(ExpectedConditions.visibilityOfAllElements(bookshelfNames));
+
+        //Click first product
+        bookshelfNames.get(0).click();
+
+        LoggerManager.info("Clicked first product");
+    }
+
+    public void switchToProductTab() {
+
+        //Wait until new tab appears (max 10 sec)
+        wait.until(driver -> driver.getWindowHandles().size() > 1);
+
+        for (String window : driver.getWindowHandles()) {
+            driver.switchTo().window(window);
+        }
+
+        LoggerManager.info("Switched to product tab ");
+    }
+
+    public void waitForProductPage() {
+        wait.until(ExpectedConditions.visibilityOf(addToCartButton));
+        LoggerManager.info("Product page loaded ");
+    }
+
+   /* public void waitForProductPage() {
+        wait.until(ExpectedConditions.visibilityOf(productTitle));
+        LoggerManager.info("Product page loaded ");
+    }*/
+
+
 }
 

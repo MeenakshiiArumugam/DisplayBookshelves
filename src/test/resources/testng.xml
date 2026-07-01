@@ -10,6 +10,7 @@
             <class name="bookshelves.TC_02_FilterByPriceBelow15000Test"/>
             <class name="bookshelves.TC_03_FilterByStorageTypeOpenTest"/> -->
             <class name ="bookshelves.TC_05_BookshelfNameAndPriceDisplayTestOfThree"/>
+          <!--  <class name ="bookshelves.TC_06_NavigateToFirstProductTest"/> -->
         </classes>
     </test>
 
