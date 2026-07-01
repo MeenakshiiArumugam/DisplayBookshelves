@@ -921,3 +921,96 @@ Session ID: 43aab6f72df597b32b09898e62397064
 2026-07-01 10:11:47 INFO  utils.LoggerManager - Switched to Gift Card window
 2026-07-01 10:11:47 INFO  utils.LoggerManager - Anniversary card selected
 2026-07-01 10:11:50 INFO  utils.LoggerManager - ===== Test Finished =====
+2026-07-01 18:03:33 INFO  utils.LoggerManager - ===== Test Started =====
+2026-07-01 18:03:33 INFO  utils.LoggerManager - Initializing browser: chrome
+2026-07-01 18:03:53 INFO  utils.LoggerManager - Chrome browser launched
+2026-07-01 18:04:11 INFO  utils.LoggerManager - Navigated to: https://www.urbanladder.com/
+2026-07-01 18:04:11 INFO  utils.LoggerManager - Starting TC_21
+2026-07-01 18:04:11 INFO  utils.LoggerManager - Clicking Gift Cards link
+2026-07-01 18:04:24 INFO  utils.LoggerManager - Switched to Gift Card window
+2026-07-01 18:04:28 INFO  utils.LoggerManager - ===== Test Finished =====
+2026-07-01 18:04:28 INFO  utils.LoggerManager - ===== Test Started =====
+2026-07-01 18:04:28 INFO  utils.LoggerManager - Initializing browser: chrome
+2026-07-01 18:04:31 INFO  utils.LoggerManager - Chrome browser launched
+2026-07-01 18:04:39 INFO  utils.LoggerManager - Navigated to: https://www.urbanladder.com/
+2026-07-01 18:04:39 INFO  utils.LoggerManager - Starting TC_22
+2026-07-01 18:04:39 INFO  utils.LoggerManager - Clicking Gift Cards link
+2026-07-01 18:04:46 INFO  utils.LoggerManager - Switched to Gift Card window
+2026-07-01 18:04:46 INFO  utils.LoggerManager - Anniversary card selected
+2026-07-01 18:04:50 INFO  utils.LoggerManager - ===== Test Finished =====
+2026-07-01 18:17:40 INFO  utils.LoggerManager - ===== Test Started =====
+2026-07-01 18:17:40 INFO  utils.LoggerManager - Initializing browser: chrome
+2026-07-01 18:17:44 INFO  utils.LoggerManager - Chrome browser launched
+2026-07-01 18:17:51 INFO  utils.LoggerManager - Navigated to: https://www.urbanladder.com/
+2026-07-01 18:17:51 INFO  utils.LoggerManager - Starting TC_23
+2026-07-01 18:17:51 INFO  utils.LoggerManager - Clicking Gift Cards link
+2026-07-01 18:18:00 INFO  utils.LoggerManager - Switched to Gift Card window
+2026-07-01 18:18:00 INFO  utils.LoggerManager - Anniversary card selected
+2026-07-01 18:18:01 INFO  utils.LoggerManager - Excel data fetched successfully
+2026-07-01 18:18:01 INFO  utils.LoggerManager - Filling Gift Card form
+2026-07-01 18:18:26 INFO  utils.LoggerManager - ===== Test Finished =====
+2026-07-01 18:26:53 INFO  utils.LoggerManager - ===== Test Started =====
+2026-07-01 18:26:53 INFO  utils.LoggerManager - Initializing browser: chrome
+2026-07-01 18:26:56 INFO  utils.LoggerManager - Chrome browser launched
+2026-07-01 18:27:03 INFO  utils.LoggerManager - Navigated to: https://www.urbanladder.com/
+2026-07-01 18:27:03 INFO  utils.LoggerManager - Starting TC_23
+2026-07-01 18:27:03 INFO  utils.LoggerManager - Clicking Gift Cards link
+2026-07-01 18:27:09 INFO  utils.LoggerManager - Switched to Gift Card window
+2026-07-01 18:27:09 INFO  utils.LoggerManager - Anniversary card selected
+2026-07-01 18:27:10 INFO  utils.LoggerManager - Switched to Gift Card iframe
+2026-07-01 18:27:11 INFO  utils.LoggerManager - Excel file loaded
+2026-07-01 18:27:11 INFO  utils.LoggerManager - Excel data fetched successfully
+2026-07-01 18:27:11 INFO  utils.LoggerManager - Filling Gift Card form
+2026-07-01 18:27:31 ERROR utils.LoggerManager - Test failed: Expected condition failed: waiting for visibility of element located by By.id: denomination (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.103, chrome: {chromedriverVersion: 149.0.7827.155 (07b52360cc1..., userDataDir: C:\Users\2497748\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54360}, goog:processID: 25676, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54360/devtoo..., se:cdpVersion: 149.0.7827.103, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 181c250bd383409016f2fba8ea1170f5
+2026-07-01 18:27:36 INFO  utils.LoggerManager - ===== Test Finished =====
+2026-07-01 18:36:29 INFO  utils.LoggerManager - ===== Test Started =====
+2026-07-01 18:36:29 INFO  utils.LoggerManager - Initializing browser: chrome
+2026-07-01 18:36:32 INFO  utils.LoggerManager - Chrome browser launched
+2026-07-01 18:36:36 INFO  utils.LoggerManager - Navigated to: https://www.urbanladder.com/
+2026-07-01 18:36:36 INFO  utils.LoggerManager - Starting TC_23
+2026-07-01 18:36:36 INFO  utils.LoggerManager - Clicking Gift Cards link
+2026-07-01 18:36:40 INFO  utils.LoggerManager - Switched to Gift Card window
+2026-07-01 18:36:42 ERROR utils.LoggerManager - Test failed: element click intercepted: Element is not clickable at point (682, 893)
+  (Session info: chrome=149.0.7827.103)
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [407cb4bd0826d6fb9de6f574563f16b9, clickElement {id=f.1EADC6CE3D909C8E164EA9DC5F62136D.d.C17556E13B3202B87CE72D2838A94E83.e.26}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.103, chrome: {chromedriverVersion: 149.0.7827.155 (07b52360cc1..., userDataDir: C:\Users\2497748\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54361}, goog:processID: 14596, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54361/devtoo..., se:cdpVersion: 149.0.7827.103, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (407cb4bd0826d6fb9de6f574563f16b9)] -> xpath: (//*[@id='design-theme']//img)[3]]
+Session ID: 407cb4bd0826d6fb9de6f574563f16b9
+2026-07-01 18:36:47 INFO  utils.LoggerManager - ===== Test Finished =====
+2026-07-01 21:39:20 INFO  utils.LoggerManager - ===== Test Started =====
+2026-07-01 21:39:20 INFO  utils.LoggerManager - Initializing browser: chrome
+2026-07-01 21:39:26 INFO  utils.LoggerManager - Chrome browser launched
+2026-07-01 21:39:36 INFO  utils.LoggerManager - Navigated to: https://www.urbanladder.com/
+2026-07-01 21:39:36 INFO  utils.LoggerManager - Starting TC_23
+2026-07-01 21:39:36 INFO  utils.LoggerManager - Clicking Gift Cards link
+2026-07-01 21:39:44 INFO  utils.LoggerManager - Switched to Gift Card window
+2026-07-01 21:39:45 INFO  utils.LoggerManager - Anniversary card selected using JS click
+2026-07-01 21:40:16 ERROR utils.LoggerManager - Test failed: Expected condition failed: waiting for visibility of element located by By.xpath: //h5[contains(text(),'Enter Denomination')] (tried for 25 second(s) with 500 milliseconds interval)
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.103, chrome: {chromedriverVersion: 149.0.7827.155 (07b52360cc1..., userDataDir: C:\Users\2497748\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58009}, goog:processID: 8208, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58009/devtoo..., se:cdpVersion: 149.0.7827.103, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 898ff53ec67abaf614010de0e0bb334a
+2026-07-01 21:40:21 INFO  utils.LoggerManager - ===== Test Finished =====
+2026-07-01 21:47:49 INFO  utils.LoggerManager - ===== Test Started =====
+2026-07-01 21:47:49 INFO  utils.LoggerManager - Initializing browser: chrome
+2026-07-01 21:47:53 INFO  utils.LoggerManager - Chrome browser launched
+2026-07-01 21:47:57 INFO  utils.LoggerManager - Navigated to: https://www.urbanladder.com/
+2026-07-01 21:47:57 INFO  utils.LoggerManager - Starting TC_23
+2026-07-01 21:47:57 INFO  utils.LoggerManager - Clicking Gift Cards link
+2026-07-01 21:48:02 INFO  utils.LoggerManager - Switched to Gift Card window
+2026-07-01 21:48:03 INFO  utils.LoggerManager - Anniversary card selected
+2026-07-01 21:48:03 INFO  utils.LoggerManager - Gift card form loaded
+2026-07-01 21:48:05 INFO  utils.LoggerManager - Excel file loaded
+2026-07-01 21:48:05 INFO  utils.LoggerManager - Excel data fetched successfully
+2026-07-01 21:48:05 INFO  utils.LoggerManager - Filling Gift Card form
+2026-07-01 21:48:06 INFO  utils.LoggerManager - Gift Card form filled successfully
+2026-07-01 21:48:11 INFO  utils.LoggerManager - ===== Test Finished =====
