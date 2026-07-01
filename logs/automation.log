@@ -850,3 +850,60 @@ Session ID: b9dced6c79133aa66a09f8f15a804a49
 2026-07-01 10:15:41 INFO  utils.LoggerManager - Filters applied
 2026-07-01 10:15:41 INFO  utils.LoggerManager - TC_03 Completed Successfully ✅
 2026-07-01 10:15:46 INFO  utils.LoggerManager - ===== Test Finished =====
+2026-07-01 12:06:52 INFO  utils.LoggerManager - ===== Test Started =====
+2026-07-01 12:06:52 INFO  utils.LoggerManager - Initializing browser: chrome
+2026-07-01 12:07:10 INFO  utils.LoggerManager - Chrome browser launched
+2026-07-01 12:07:34 INFO  utils.LoggerManager - Navigated to: https://www.urbanladder.com/
+2026-07-01 12:07:34 INFO  utils.LoggerManager - Starting TC_03 - Filter by Open Storage
+2026-07-01 12:07:34 INFO  utils.LoggerManager - Waiting for search box
+2026-07-01 12:07:34 INFO  utils.LoggerManager - Clicking search box
+2026-07-01 12:07:35 INFO  utils.LoggerManager - Typing Bookshelves
+2026-07-01 12:07:36 INFO  utils.LoggerManager - Pressing Enter
+2026-07-01 12:07:52 INFO  utils.LoggerManager - ===== Test Finished =====
+2026-07-01 12:08:09 INFO  utils.LoggerManager - ===== Test Started =====
+2026-07-01 12:08:09 INFO  utils.LoggerManager - Initializing browser: chrome
+2026-07-01 12:08:15 INFO  utils.LoggerManager - Chrome browser launched
+2026-07-01 12:08:30 INFO  utils.LoggerManager - Navigated to: https://www.urbanladder.com/
+2026-07-01 12:08:30 INFO  utils.LoggerManager - Starting TC_03 - Filter by Open Storage
+2026-07-01 12:08:30 INFO  utils.LoggerManager - Waiting for search box
+2026-07-01 12:08:30 INFO  utils.LoggerManager - Clicking search box
+2026-07-01 12:08:30 INFO  utils.LoggerManager - Typing Bookshelves
+2026-07-01 12:08:31 INFO  utils.LoggerManager - Pressing Enter
+2026-07-01 12:08:31 INFO  utils.LoggerManager - Bookshelves searched
+2026-07-01 12:08:31 INFO  utils.LoggerManager - Clicking All Filters button
+2026-07-01 12:08:31 INFO  utils.LoggerManager - Filters panel opened successfully
+2026-07-01 12:08:31 INFO  utils.LoggerManager - Filters opened
+2026-07-01 12:08:31 INFO  utils.LoggerManager - Scrolling inside All Filters panel
+2026-07-01 12:08:31 INFO  utils.LoggerManager - Clicking Storage Type
+2026-07-01 12:08:32 INFO  utils.LoggerManager - Storage Type expanded
+2026-07-01 12:08:32 INFO  utils.LoggerManager - Selecting Open Storage
+2026-07-01 12:08:32 INFO  utils.LoggerManager - Open Storage selected successfully ✅
+2026-07-01 12:08:32 INFO  utils.LoggerManager - Open Storage selected
+2026-07-01 12:08:32 INFO  utils.LoggerManager - Clicking Apply Filter button
+2026-07-01 12:08:32 INFO  utils.LoggerManager - Filters applied successfully ✅
+2026-07-01 12:08:32 INFO  utils.LoggerManager - Filters applied
+2026-07-01 12:08:32 INFO  utils.LoggerManager - TC_03 Completed Successfully 
+2026-07-01 12:08:38 INFO  utils.LoggerManager - ===== Test Finished =====
+2026-07-01 12:09:05 INFO  utils.LoggerManager - ===== Test Started =====
+2026-07-01 12:09:05 INFO  utils.LoggerManager - Initializing browser: chrome
+2026-07-01 12:09:10 INFO  utils.LoggerManager - Chrome browser launched
+2026-07-01 12:09:31 INFO  utils.LoggerManager - Navigated to: https://www.urbanladder.com/
+2026-07-01 12:09:31 INFO  utils.LoggerManager - Starting TC_05
+2026-07-01 12:09:31 INFO  utils.LoggerManager - Waiting for search box
+2026-07-01 12:09:31 INFO  utils.LoggerManager - Clicking search box
+2026-07-01 12:09:31 INFO  utils.LoggerManager - Typing Bookshelves
+2026-07-01 12:09:31 INFO  utils.LoggerManager - Pressing Enter
+2026-07-01 12:09:32 INFO  utils.LoggerManager - Clicking All Filters button
+2026-07-01 12:09:32 INFO  utils.LoggerManager - Filters panel opened successfully
+2026-07-01 12:09:32 INFO  utils.LoggerManager - Scrolling inside All Filters panel
+2026-07-01 12:09:32 INFO  utils.LoggerManager - Clicking Storage Type
+2026-07-01 12:09:32 INFO  utils.LoggerManager - Storage Type expanded
+2026-07-01 12:09:32 INFO  utils.LoggerManager - Selecting Open Storage
+2026-07-01 12:09:33 INFO  utils.LoggerManager - Open Storage selected successfully ✅
+2026-07-01 12:09:33 INFO  utils.LoggerManager - Clicking Apply Filter button
+2026-07-01 12:09:33 INFO  utils.LoggerManager - Filters applied successfully ✅
+2026-07-01 12:09:36 INFO  utils.LoggerManager - Bookshelf 1 → Name: Paxton Solid Wood Bookshelf in Amber Walnut Finish | Price: ₹7,999
+2026-07-01 12:09:36 INFO  utils.LoggerManager - Bookshelf 2 → Name: Tetris Solid Wood Bookshelf in Walnut Finish | Price: ₹11,799
+2026-07-01 12:09:36 INFO  utils.LoggerManager - Bookshelf 3 → Name: Austen Solid Wood Bookshelf in Amber Walnut Finish | Price: ₹6,999
+2026-07-01 12:09:36 INFO  utils.LoggerManager - TC_05 Completed Successfully ✅
+2026-07-01 12:09:42 INFO  utils.LoggerManager - ===== Test Finished =====

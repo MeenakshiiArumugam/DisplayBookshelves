@@ -8,7 +8,7 @@ import com.aventstack.extentreports.Status;
 import utils.LoggerManager;
 import utils.ExtentReportManager;
 
-// ✅ ADD THESE IMPORTS
+//ADD THESE IMPORTS
 import org.openqa.selenium.support.ui.WebDriverWait;
 import java.time.Duration;
 
@@ -24,24 +24,24 @@ public class TC_06_NavigateToFirstProductTest extends BaseTest {
         LoggerManager.info("Starting TC_06");
         ExtentReportManager.getTest().log(Status.INFO, "Test Started");
 
-        // ✅ Search and apply filters
+        //Search and apply filters
         page.searchBookshelves();
         page.openFilters();
         page.selectOpenStorage();
         page.applyFilters();
 
-        // ✅ Click first product
+        //Click first product
         page.clickFirstProduct();
         ExtentReportManager.getTest().log(Status.INFO, "Clicked on first product");
 
-        // ✅ Switch to new tab (IMPORTANT)
+        // Switch to new tab (IMPORTANT)
         page.switchToProductTab();
         page.waitForProductPage();
-        /* ✅ ✅ ADD THIS WAIT (ONLY CHANGE)
+        /*ADD THIS WAIT (ONLY CHANGE)
         new WebDriverWait(driver, Duration.ofSeconds(20))
                 .until(d -> d.getCurrentUrl().contains("bookshelf")); */
 
-        // ✅ Validate navigation
+        //Validate navigation
         String currentUrl = driver.getCurrentUrl();
         LoggerManager.info("Navigated URL: " + currentUrl);
 
@@ -51,6 +51,6 @@ public class TC_06_NavigateToFirstProductTest extends BaseTest {
         ExtentReportManager.getTest().log(Status.PASS,
                 "Successfully navigated to product page");
 
-        LoggerManager.info("TC_06 Completed ✅");
+        LoggerManager.info("TC_06 Completed");
     }
 }

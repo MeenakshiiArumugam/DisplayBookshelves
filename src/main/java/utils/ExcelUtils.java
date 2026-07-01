@@ -13,29 +13,24 @@ public class ExcelUtils {
         try {
             Workbook workbook = new XSSFWorkbook();
             Sheet sheet = workbook.createSheet("Bookshelves");
-
-            // ✅ Header Row
+            //Header Row
             Row header = sheet.createRow(0);
             header.createCell(0).setCellValue("S.No");
             header.createCell(1).setCellValue("Product Name");
             header.createCell(2).setCellValue("Price");
-
-            // ✅ Data Rows
+            //Data Rows
             for (int i = 0; i < names.size(); i++) {
                 Row row = sheet.createRow(i + 1);
                 row.createCell(0).setCellValue(i + 1);
                 row.createCell(1).setCellValue(names.get(i));
                 row.createCell(2).setCellValue(prices.get(i));
             }
-
-            // ✅ Save file
+            //Save file
             FileOutputStream fileOut = new FileOutputStream("Bookshelves.xlsx");
             workbook.write(fileOut);
-
             fileOut.close();
             workbook.close();
-
-            System.out.println("✅ Data written to Excel successfully!");
+            System.out.println("Data written to Excel successfully!");
 
         } catch (Exception e) {
             e.printStackTrace();

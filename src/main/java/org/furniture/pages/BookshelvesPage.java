@@ -258,10 +258,7 @@ public class BookshelvesPage {
         LoggerManager.info("Product page loaded ");
     }
 
-   /* public void waitForProductPage() {
-        wait.until(ExpectedConditions.visibilityOf(productTitle));
-        LoggerManager.info("Product page loaded ");
-    }*/
+
 
 
 }
