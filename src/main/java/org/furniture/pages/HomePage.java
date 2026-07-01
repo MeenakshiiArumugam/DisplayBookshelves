@@ -40,86 +40,61 @@ public class HomePage {
     java.util.List<WebElement> terraItems;
 
 
-
-    // Hover on New Arrivals
+    // Hover action
     public void hoverOnNewArrivals() {
 
-        try {
-            LoggerManager.info("Waiting for New Arrivals menu");
-            wait.until(ExpectedConditions.visibilityOf(newArrivalsMenu));
+        LoggerManager.info("Waiting for New Arrivals menu");
+        wait.until(ExpectedConditions.visibilityOf(newArrivalsMenu));
 
-            LoggerManager.info("Hovering on New Arrivals menu");
-            ExtentReportManager.getTest().info("Hovering on New Arrivals");
+        LoggerManager.info("Hovering on New Arrivals menu");
+        ExtentReportManager.getTest().info("Hovering on New Arrivals");
 
-            Actions actions = new Actions(driver);
-            actions.moveToElement(newArrivalsMenu)
-                    .pause(Duration.ofSeconds(2))
-                    .perform();
+        Actions actions = new Actions(driver);
+        actions.moveToElement(newArrivalsMenu)
+                .pause(Duration.ofSeconds(2))
+                .perform();
 
-            LoggerManager.info("Hover action completed");
-            ExtentReportManager.getTest().info("Hover completed successfully");
-
-        } catch (Exception e) {
-            LoggerManager.error("Hover failed: " + e.getMessage());
-            ExtentReportManager.getTest().fail("Hover action failed");
-            throw e;
-        }
+        LoggerManager.info("Hover action completed");
+        ExtentReportManager.getTest().info("Hover completed successfully");
     }
 
-    //Check dropdown is displayed
+
+    // Validate dropdown
     public boolean isNewArrivalsDropdownDisplayed() {
 
-        try {
-            LoggerManager.info("Validating New Arrivals dropdown visibility");
-            ExtentReportManager.getTest().info("Checking dropdown visibility");
+        LoggerManager.info("Validating New Arrivals dropdown visibility");
+        ExtentReportManager.getTest().info("Checking dropdown visibility");
 
-            // Wait for dropdown container
-            wait.until(ExpectedConditions.visibilityOf(newArrivalsDropdown));
+        wait.until(ExpectedConditions.visibilityOf(newArrivalsDropdown));
+        LoggerManager.info("Dropdown container is visible");
 
-            LoggerManager.info("Dropdown container is visible");
+        wait.until(ExpectedConditions.visibilityOf(terraCollection));
+        LoggerManager.info("Terra Collection is visible inside dropdown");
 
-            // Wait for Terra Collection (real UI validation)
-            wait.until(ExpectedConditions.visibilityOf(terraCollection));
+        boolean result = newArrivalsDropdown.isDisplayed()
+                && terraCollection.isDisplayed();
 
-            LoggerManager.info("Terra Collection is visible inside dropdown");
+        LoggerManager.info("Final dropdown validation result: " + result);
+        ExtentReportManager.getTest().info("Dropdown displayed: " + result);
 
-            boolean result =
-                    newArrivalsDropdown.isDisplayed() &&
-                            terraCollection.isDisplayed();
-
-            LoggerManager.info("Final dropdown validation result: " + result);
-            ExtentReportManager.getTest().info("Dropdown displayed: " + result);
-
-            return result;
-
-        } catch (Exception e) {
-            LoggerManager.error("Dropdown validation failed: " + e.getMessage());
-            ExtentReportManager.getTest().fail("Dropdown is not displayed");
-            return false;
-        }
+        return result;
     }
 
-    //Get all sub-menu of Terra Collection
+
+    // Capture Terra submenu items
     public java.util.List<String> getTerraCollectionItems() {
 
         java.util.List<String> itemsText = new java.util.ArrayList<>();
 
-        try {
-            LoggerManager.info("Capturing Terra Collection submenu items");
-            ExtentReportManager.getTest().info("Fetching Terra Collection items");
+        LoggerManager.info("Capturing Terra Collection submenu items");
+        ExtentReportManager.getTest().info("Fetching Terra Collection items");
 
-            // Ensure dropdown is open
-            wait.until(ExpectedConditions.visibilityOf(terraSection));
+        wait.until(ExpectedConditions.visibilityOf(terraSection));
 
-            for (WebElement item : terraItems) {
-                String text = item.getText().trim();
-                LoggerManager.info("Found item: " + text);
-                itemsText.add(text);
-            }
-
-        } catch (Exception e) {
-            LoggerManager.error("Failed to capture Terra items: " + e.getMessage());
-            ExtentReportManager.getTest().fail("Failed to capture Terra items");
+        for (WebElement item : terraItems) {
+            String text = item.getText().trim();
+            LoggerManager.info("Found item: " + text);
+            itemsText.add(text);
         }
 
         return itemsText;

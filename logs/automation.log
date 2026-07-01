@@ -511,3 +511,71 @@ Session ID: 43aab6f72df597b32b09898e62397064
 2026-06-30 15:35:47 INFO  utils.LoggerManager - Total items captured: 5
 2026-06-30 15:35:49 INFO  utils.LoggerManager - Excel file created successfully ✅
 2026-06-30 15:35:54 INFO  utils.LoggerManager - ===== Test Finished =====
+2026-07-01 10:33:31 INFO  utils.LoggerManager - ===== Test Started =====
+2026-07-01 10:33:31 INFO  utils.LoggerManager - Initializing browser: edge
+2026-07-01 10:33:36 INFO  utils.LoggerManager - Edge browser launched
+2026-07-01 10:33:47 INFO  utils.LoggerManager - Navigated to: https://www.urbanladder.com/
+2026-07-01 10:33:47 INFO  utils.LoggerManager - Starting TC - New Arrivals Hover
+2026-07-01 10:33:47 INFO  utils.LoggerManager - Waiting for New Arrivals menu
+2026-07-01 10:33:47 INFO  utils.LoggerManager - Hovering on New Arrivals menu
+2026-07-01 10:33:50 INFO  utils.LoggerManager - Hover action completed
+2026-07-01 10:33:50 INFO  utils.LoggerManager - Validating New Arrivals dropdown visibility
+2026-07-01 10:33:50 INFO  utils.LoggerManager - Dropdown container is visible
+2026-07-01 10:33:50 INFO  utils.LoggerManager - Terra Collection is visible inside dropdown
+2026-07-01 10:33:50 INFO  utils.LoggerManager - Final dropdown validation result: true
+2026-07-01 10:33:54 INFO  utils.LoggerManager - ===== Test Finished =====
+2026-07-01 10:33:54 INFO  utils.LoggerManager - ===== Test Started =====
+2026-07-01 10:33:54 INFO  utils.LoggerManager - Initializing browser: edge
+2026-07-01 10:33:57 INFO  utils.LoggerManager - Edge browser launched
+2026-07-01 10:34:08 INFO  utils.LoggerManager - Navigated to: https://www.urbanladder.com/
+2026-07-01 10:34:08 INFO  utils.LoggerManager - Starting TC - Capture Terra Collection Data
+2026-07-01 10:34:08 INFO  utils.LoggerManager - Waiting for New Arrivals menu
+2026-07-01 10:34:08 INFO  utils.LoggerManager - Hovering on New Arrivals menu
+2026-07-01 10:34:10 INFO  utils.LoggerManager - Hover action completed
+2026-07-01 10:34:10 INFO  utils.LoggerManager - Validating New Arrivals dropdown visibility
+2026-07-01 10:34:10 INFO  utils.LoggerManager - Dropdown container is visible
+2026-07-01 10:34:10 INFO  utils.LoggerManager - Terra Collection is visible inside dropdown
+2026-07-01 10:34:10 INFO  utils.LoggerManager - Final dropdown validation result: true
+2026-07-01 10:34:10 INFO  utils.LoggerManager - Capturing Terra Collection submenu items
+2026-07-01 10:34:10 INFO  utils.LoggerManager - Found item: Discover Terra
+2026-07-01 10:34:10 INFO  utils.LoggerManager - Found item: Explore Full Collection
+2026-07-01 10:34:10 INFO  utils.LoggerManager - Found item: Living Room
+2026-07-01 10:34:10 INFO  utils.LoggerManager - Found item: Bedroom
+2026-07-01 10:34:10 INFO  utils.LoggerManager - Found item: Dining Room
+2026-07-01 10:34:10 INFO  utils.LoggerManager - Total items captured: 5
+2026-07-01 10:34:12 INFO  utils.LoggerManager - Excel file created successfully ✅
+2026-07-01 10:34:16 INFO  utils.LoggerManager - ===== Test Finished =====
+2026-07-01 11:17:30 INFO  utils.LoggerManager - ===== Test Started =====
+2026-07-01 11:17:30 INFO  utils.LoggerManager - Initializing browser: edge
+2026-07-01 11:17:35 INFO  utils.LoggerManager - Edge browser launched
+2026-07-01 11:17:52 INFO  utils.LoggerManager - Navigated to: https://www.urbanladder.com/
+2026-07-01 11:17:52 INFO  utils.LoggerManager - Starting TC - New Arrivals Hover
+2026-07-01 11:17:52 INFO  utils.LoggerManager - Waiting for New Arrivals menu
+2026-07-01 11:17:52 INFO  utils.LoggerManager - Hovering on New Arrivals menu
+2026-07-01 11:17:55 INFO  utils.LoggerManager - Hover action completed
+2026-07-01 11:17:55 INFO  utils.LoggerManager - Validating New Arrivals dropdown visibility
+2026-07-01 11:17:55 INFO  utils.LoggerManager - Dropdown container is visible
+2026-07-01 11:17:55 INFO  utils.LoggerManager - Terra Collection is visible inside dropdown
+2026-07-01 11:17:55 INFO  utils.LoggerManager - Final dropdown validation result: true
+2026-07-01 11:17:59 INFO  utils.LoggerManager - ===== Test Finished =====
+2026-07-01 11:17:59 INFO  utils.LoggerManager - ===== Test Started =====
+2026-07-01 11:17:59 INFO  utils.LoggerManager - Initializing browser: edge
+2026-07-01 11:18:03 INFO  utils.LoggerManager - Edge browser launched
+2026-07-01 11:18:19 INFO  utils.LoggerManager - Navigated to: https://www.urbanladder.com/
+2026-07-01 11:18:19 INFO  utils.LoggerManager - Starting TC - Capture Terra Collection Data
+2026-07-01 11:18:19 INFO  utils.LoggerManager - Waiting for New Arrivals menu
+2026-07-01 11:18:19 INFO  utils.LoggerManager - Hovering on New Arrivals menu
+2026-07-01 11:18:21 INFO  utils.LoggerManager - Hover action completed
+2026-07-01 11:18:21 INFO  utils.LoggerManager - Validating New Arrivals dropdown visibility
+2026-07-01 11:18:21 INFO  utils.LoggerManager - Dropdown container is visible
+2026-07-01 11:18:21 INFO  utils.LoggerManager - Terra Collection is visible inside dropdown
+2026-07-01 11:18:21 INFO  utils.LoggerManager - Final dropdown validation result: true
+2026-07-01 11:18:21 INFO  utils.LoggerManager - Capturing Terra Collection submenu items
+2026-07-01 11:18:22 INFO  utils.LoggerManager - Found item: Discover Terra
+2026-07-01 11:18:22 INFO  utils.LoggerManager - Found item: Explore Full Collection
+2026-07-01 11:18:22 INFO  utils.LoggerManager - Found item: Living Room
+2026-07-01 11:18:22 INFO  utils.LoggerManager - Found item: Bedroom
+2026-07-01 11:18:22 INFO  utils.LoggerManager - Found item: Dining Room
+2026-07-01 11:18:22 INFO  utils.LoggerManager - Total items captured: 5
+2026-07-01 11:18:23 INFO  utils.LoggerManager - Excel file created successfully ✅
+2026-07-01 11:18:26 INFO  utils.LoggerManager - ===== Test Finished =====
