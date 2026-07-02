@@ -1,60 +1,62 @@
 package config;
 
+import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.edge.EdgeDriver;
-import io.github.bonigarcia.wdm.WebDriverManager;
-
 import utils.ConfigReader;
 import utils.LoggerManager;
-
 import java.time.Duration;
 
 public class DriverFactory {
 
     private static WebDriver driver;
 
-    public static WebDriver initDriver(String browserParam) {
-
-        String browser = (browserParam != null)
-                ? browserParam
-                : ConfigReader.getProperty("browser");
-
-        LoggerManager.info("Initializing browser: " + browser);
+    public static WebDriver initDriver() {
+        String browser = ConfigReader.getProperty("browser");
+        boolean maximize = Boolean.parseBoolean(ConfigReader.getProperty("maximize"));
+        LoggerManager.info("Initializing browser : " + browser);
 
         switch (browser.toLowerCase()) {
             case "chrome":
-                WebDriverManager.chromedriver().setup();   // ✅ ADD THIS
-                driver = new ChromeDriver();
+                WebDriverManager.chromedriver().setup();
+                ChromeOptions chromeOptions = new ChromeOptions();
+                chromeOptions.addArguments("--disable-gpu");
+                chromeOptions.addArguments("--disable-infobars");
+                if (Boolean.parseBoolean(ConfigReader.getProperty("headless"))) {
+                    chromeOptions.addArguments("--headless=new");
+                }
+                driver = new ChromeDriver(chromeOptions);
                 LoggerManager.info("Chrome browser launched");
                 break;
 
             case "edge":
-                WebDriverManager.edgedriver().setup();    // ✅ ADD THIS
                 driver = new EdgeDriver();
                 LoggerManager.info("Edge browser launched");
                 break;
 
             default:
-                throw new RuntimeException("Invalid browser: " + browser);
+                throw new RuntimeException("Unsupported Browser : " + browser);
         }
 
-        driver.manage().window().maximize();
+        if (maximize) {
+            driver.manage().window().maximize();
+        }
+        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(Long.parseLong(ConfigReader.getProperty("implicitWait"))));
+        driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(Long.parseLong(ConfigReader.getProperty("pageLoadTimeout"))));
+        return driver;
+    }
 
-        driver.manage().timeouts().implicitlyWait(
-                Duration.ofSeconds(Long.parseLong(ConfigReader.getProperty("implicitWait")))
-        );
-
-        driver.manage().timeouts().pageLoadTimeout(
-                Duration.ofSeconds(Long.parseLong(ConfigReader.getProperty("pageLoadTimeout")))
-        );
-
+    public static WebDriver getDriver() {
         return driver;
     }
 
     public static void quitDriver() {
         if (driver != null) {
             driver.quit();
+            driver = null;
+            LoggerManager.info("Browser closed successfully");
         }
     }
 }

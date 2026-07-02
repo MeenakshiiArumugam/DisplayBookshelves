@@ -1,13 +1,15 @@
 package org.furniture.pages;
 
 import org.openqa.selenium.*;
-import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import utils.LoggerManager;
+import utils.PopupHandler;
+
 import java.time.Duration;
+import java.util.ArrayList;
 import java.util.List;
 
 public class BookshelvesPage {
@@ -37,15 +39,20 @@ public class BookshelvesPage {
     // Apply Filter Button
     @FindBy(xpath = "//button[.//text()='Apply' or contains(.,'Apply')]")
     WebElement applyFilterBtn;
+<<<<<<< HEAD
     // Product Count
     @FindBy(xpath = "//span[contains(.,'Products') and contains(.,'0')]")
     WebElement productsCount;
+=======
+
+>>>>>>> main
     // Bookshelf names
     @FindBy(xpath = "//h2[contains(text(),'Bookshelf')]")
     java.util.List<WebElement> bookshelfNames;
     // Bookshelf prices
     @FindBy(xpath ="//div[@role='link']//div[contains(text(),'₹')]")
     java.util.List<WebElement> bookshelfPrices;
+<<<<<<< HEAD
     //First Bookshelf
     @FindBy(xpath = "\"(//div[@role='link'])[1]\"")
     WebElement firstBookshelf;
@@ -57,12 +64,36 @@ public class BookshelvesPage {
     //Cart Button
     @FindBy(xpath = "//button[contains(text(),'Go to Cart')]")
     WebElement goToCartBtn;
+=======
+
+    @FindBy(xpath = "//div[@aria-label='Sort By filter']")
+    WebElement sortBy;
+
+    @FindBy(xpath = "//div[contains(text(),'Discount High to Low')]")
+    WebElement discountHighToLow;
+
+    @FindBy(xpath = "//h2[contains(@class,'XxwSy')]")
+    List<WebElement> productNames;
+
+    @FindBy(xpath = "//div[@role='link']")
+    List<WebElement> productCards;
+>>>>>>> main
 
     public void searchBookshelves() {
+        PopupHandler.closePopupIfPresent(driver);
         LoggerManager.info("Waiting for search box");
+        PopupHandler.closePopupIfPresent(driver);
+
         wait.until(ExpectedConditions.visibilityOf(searchBox));
+        try {
+            searchBox.click();
+        }
+        catch(ElementClickInterceptedException e) {
+            PopupHandler.closePopupIfPresent(driver);
+            searchBox.click();
+        }
         LoggerManager.info("Clicking search box");
-        searchBox.click();
+
         LoggerManager.info("Typing Bookshelves");
         searchBox.sendKeys("Bookshelves");
         LoggerManager.info("Pressing Enter");
@@ -75,6 +106,7 @@ public class BookshelvesPage {
     }
 
     public void openFilters() {
+        PopupHandler.closePopupIfPresent(driver);
         LoggerManager.info("Clicking All Filters button");
         wait.until(ExpectedConditions.elementToBeClickable(allFiltersBtn));
         ((JavascriptExecutor) driver)
@@ -83,6 +115,7 @@ public class BookshelvesPage {
     }
 
     public void applyPriceFilter() {
+        PopupHandler.closePopupIfPresent(driver);
         LoggerManager.info("Clicking All Filters");
         wait.until(ExpectedConditions.elementToBeClickable(allFiltersBtn));
         ((JavascriptExecutor) driver)
@@ -150,6 +183,7 @@ public class BookshelvesPage {
     }
 
     public int getFilteredProductsCount() {
+        PopupHandler.closePopupIfPresent(driver);
         WebElement countElement = wait.until(
                 ExpectedConditions.visibilityOfElementLocated(
                         By.cssSelector("span.PpQnM")
@@ -171,9 +205,8 @@ public class BookshelvesPage {
     }
 
     public List<Double> getFirstTwentyBookshelfPrices() {
-
+        PopupHandler.closePopupIfPresent(driver);
         wait.until(ExpectedConditions.visibilityOfAllElements(bookshelfPrices));
-
         return bookshelfPrices.stream()
                 .filter(WebElement::isDisplayed)
                 .limit(20)
@@ -186,6 +219,7 @@ public class BookshelvesPage {
     }
 
     public List<String> getTopThreeBookshelfNames() {
+        PopupHandler.closePopupIfPresent(driver);
         wait.until(ExpectedConditions.visibilityOfAllElements(bookshelfNames));
         return bookshelfNames.stream()
                 .limit(3)
@@ -194,6 +228,7 @@ public class BookshelvesPage {
     }
 
     public List<String> getTopThreeBookshelfPrices() {
+        PopupHandler.closePopupIfPresent(driver);
         return bookshelfPrices.stream()
                 .filter(WebElement::isDisplayed)   // KEY FIX
                 .limit(3)
@@ -202,7 +237,7 @@ public class BookshelvesPage {
     }
 
     public String clickFirstProduct() {
-
+        PopupHandler.closePopupIfPresent(driver);
         WebElement product = wait.until(
                 ExpectedConditions.visibilityOfElementLocated(
                         By.xpath("(//h2[contains(@class,'XxwSy')])[1]")
@@ -236,6 +271,7 @@ public class BookshelvesPage {
                 ));
         ((JavascriptExecutor) driver)
                 .executeScript("arguments[0].click();", primaryMaterial);
+<<<<<<< HEAD
         LoggerManager.info("Selecting Engineered Wood under Primary Material");
         WebElement engineeredWood = wait.until(
                 ExpectedConditions.elementToBeClickable(
@@ -246,6 +282,21 @@ public class BookshelvesPage {
     }
 
     public void selectTableTopMaterialEngineeredWood() {
+=======
+
+        LoggerManager.info("Selecting Engineered Wood under Primary Material");
+        WebElement engineeredWood = wait.until(
+                ExpectedConditions.elementToBeClickable(
+                        By.xpath("(//div[text()='Engineered Wood'])[1]")
+                ));
+        ((JavascriptExecutor) driver)
+                .executeScript("arguments[0].click();", engineeredWood);
+    }
+
+    public void selectTableTopMaterialEngineeredWood() {
+
+        PopupHandler.closePopupIfPresent(driver);
+>>>>>>> main
         LoggerManager.info("Scrolling to Table Top Material");
         WebElement tableTopMaterial = wait.until(
                 ExpectedConditions.visibilityOfElementLocated(
@@ -262,13 +313,21 @@ public class BookshelvesPage {
                 ExpectedConditions.elementToBeClickable(
                         By.xpath("(//div[text()='Engineered Wood'])[2]")
                 ));
+<<<<<<< HEAD
 
+=======
+>>>>>>> main
         ((JavascriptExecutor) driver)
                 .executeScript("arguments[0].click();",
                         engineeredWood);
     }
 
     public int getProductsCountAfterMaterialFilters() {
+<<<<<<< HEAD
+=======
+
+        PopupHandler.closePopupIfPresent(driver);
+>>>>>>> main
         WebElement countElement = wait.until(
                 ExpectedConditions.visibilityOfElementLocated(
                         By.xpath("//h1[contains(text(),'Bookshelves')]/following-sibling::span")
@@ -277,6 +336,10 @@ public class BookshelvesPage {
         wait.until(driver -> {
             String countText = countElement.getText()
                     .replaceAll("[^0-9]", "");
+<<<<<<< HEAD
+=======
+
+>>>>>>> main
             return !countText.isEmpty()
                     && Integer.parseInt(countText) < 639;
         });
@@ -287,4 +350,63 @@ public class BookshelvesPage {
                 countText.replaceAll("[^0-9]", ""));
     }
 
+<<<<<<< HEAD
+=======
+    public void sortByDiscountHighToLow() {
+
+        PopupHandler.closePopupIfPresent(driver);
+        LoggerManager.info("Clicking Sort By");
+        wait.until(ExpectedConditions.elementToBeClickable(sortBy))
+                .click();
+
+        LoggerManager.info("Selecting Discount High To Low");
+        wait.until(ExpectedConditions.elementToBeClickable(discountHighToLow))
+                .click();
+
+        LoggerManager.info("Discount sorting applied");
+
+        wait.until(ExpectedConditions.visibilityOfAllElements(productCards));
+    }
+
+    public void loadTwentyProducts() {
+        PopupHandler.closePopupIfPresent(driver);
+        JavascriptExecutor js = (JavascriptExecutor) driver;
+        while (productNames.size() < 20) {
+            int currentCount = productNames.size();
+            js.executeScript("window.scrollBy(0,1000)");
+            wait.until(driver ->
+                    productNames.size() > currentCount || productNames.size() >= 20);
+        }
+        LoggerManager.info("Minimum 20 products loaded");
+    }
+
+    public List<String[]> getTopTwentyProductsWithDiscounts() {
+
+        PopupHandler.closePopupIfPresent(driver);
+        wait.until(ExpectedConditions.visibilityOfAllElements(productCards));
+        List<String[]> productData = new ArrayList<>();
+        int count = Math.min(20, productCards.size());
+        for (int i = 0; i < count; i++) {
+            WebElement card = productCards.get(i);
+            try {
+                String name = card.findElement(
+                                By.xpath(".//h2[contains(@class,'XxwSy')]")).getText();
+                String discount = "N/A";
+                List<WebElement> discountElements = card.findElements(
+                                By.xpath(".//span[contains(text(),'OFF')]"));
+                if (!discountElements.isEmpty()) {
+                    discount = discountElements.get(0).getText();
+                }
+                productData.add(new String[]{name, discount});
+            } catch (Exception e) {
+                LoggerManager.error(
+                        "Unable to extract product details");
+            }
+        }
+        LoggerManager.info("Extracted " + productData.size() + " products with discounts");
+        return productData;
+    }
+
+
+>>>>>>> main
 }

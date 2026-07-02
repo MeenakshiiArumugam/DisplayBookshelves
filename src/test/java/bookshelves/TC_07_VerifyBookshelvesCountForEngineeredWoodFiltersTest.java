@@ -9,7 +9,10 @@ import utils.LoggerManager;
 
 public class TC_07_VerifyBookshelvesCountForEngineeredWoodFiltersTest extends BaseTest {
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> main
     @Test
     public void filterByEngineeredWoodMaterialAndRetrieveProductCount() {
         LoggerManager.info("Starting TC_07 - Filter by Engineered Wood Materials");
@@ -49,4 +52,8 @@ public class TC_07_VerifyBookshelvesCountForEngineeredWoodFiltersTest extends Ba
                 "Verified product count is greater than zero");
     }
 
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> main
