@@ -1,5 +1,5 @@
 package giftcards;
-
+import org.testng.Assert;
 import base.BaseTest;
 import org.furniture.pages.GiftCardsPage;
 import org.testng.annotations.Test;
@@ -16,36 +16,26 @@ public class TC_23_FillGiftCardFormTest extends BaseTest {
     public void fillGiftCardFormTest() {
 
         ExtentReportManager.createTest("TC_23 - Fill Gift Card Form");
-
         LoggerManager.info("Starting TC_23");
         ExtentReportManager.getTest().log(Status.INFO, "Test started");
-
         try {
-
             GiftCardsPage page = new GiftCardsPage(driver);
-
-            // ✅ Step 1: Navigation
+            // Navigation
             page.clickGiftCards();
             page.switchToGiftCardWindow();
             page.selectAnniversaryCard();
 
-            // ✅ Step 2: Wait for form (IMPORTANT)
+            // Wait for form
             page.waitForGiftCardFormToLoad();
 
-            // ❌ REMOVE THIS LINE
-            // page.switchToGiftCardFrame();
-
-            // ✅ Step 3: Load Excel
+            // Load Excel
             String filePath = System.getProperty("user.dir")
                     + "/src/test/resources/testdata/testdata.xlsx";
-
             String sheetName = "giftcardinput";
-
             ExcelUtils.setExcelFile(filePath, sheetName);
-
             LoggerManager.info("Excel file loaded");
 
-            // ✅ Step 4: Read Data
+            // Read Data
             String amount = ExcelUtils.getCellData(1, 0);
             String quantity = ExcelUtils.getCellData(1, 1);
             String senderFName = ExcelUtils.getCellData(1, 2);
@@ -56,10 +46,9 @@ public class TC_23_FillGiftCardFormTest extends BaseTest {
             String receiverLName = ExcelUtils.getCellData(1, 7);
             String receiverEmail = ExcelUtils.getCellData(1, 8);
             String message = ExcelUtils.getCellData(1, 9);
-
             LoggerManager.info("Excel data fetched successfully");
 
-            // ✅ Step 5: Fill Form
+            // Fill Form
             page.fillGiftCardForm(
                     amount, quantity,
                     senderFName, senderLName,
@@ -67,15 +56,64 @@ public class TC_23_FillGiftCardFormTest extends BaseTest {
                     receiverFName, receiverLName,
                     receiverEmail, message
             );
+            Assert.assertEquals(
+                    page.getAmountValue(),
+                    amount,
+                    "Amount mismatch"
+            );
 
+            Assert.assertEquals(
+                    page.getQuantityValue(),
+                    quantity,
+                    "Quantity mismatch"
+            );
+
+            Assert.assertEquals(
+                    page.getSenderFirstNameValue(),
+                    senderFName,
+                    "Sender First Name mismatch"
+            );
+
+            Assert.assertEquals(
+                    page.getSenderLastNameValue(),
+                    senderLName,
+                    "Sender Last Name mismatch"
+            );
+
+            Assert.assertEquals(
+                    page.getSenderEmailValue(),
+                    senderEmail,
+                    "Sender Email mismatch"
+            );
+
+            Assert.assertEquals(
+                    page.getSenderMobileValue(),
+                    senderMobile,
+                    "Sender Mobile mismatch"
+            );
+
+            Assert.assertEquals(
+                    page.getReceiverFirstNameValue(),
+                    receiverFName,
+                    "Receiver First Name mismatch"
+            );
+
+            Assert.assertEquals(
+                    page.getReceiverLastNameValue(),
+                    receiverLName,
+                    "Receiver Last Name mismatch"
+            );
+
+            Assert.assertEquals(
+                    page.getReceiverEmailValue(),
+                    receiverEmail,
+                    "Receiver Email mismatch"
+            );
             ExtentReportManager.getTest().log(Status.PASS,
                     "Gift card form filled successfully");
-
-        } catch (Exception e) {
-
+            } catch (Exception e) {
             LoggerManager.error("Test failed: " + e.getMessage());
             ExtentReportManager.getTest().log(Status.FAIL, e.getMessage());
-
             throw e;
         }
     }

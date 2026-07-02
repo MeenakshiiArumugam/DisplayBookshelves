@@ -1014,3 +1014,351 @@ Session ID: 898ff53ec67abaf614010de0e0bb334a
 2026-07-01 21:48:05 INFO  utils.LoggerManager - Filling Gift Card form
 2026-07-01 21:48:06 INFO  utils.LoggerManager - Gift Card form filled successfully
 2026-07-01 21:48:11 INFO  utils.LoggerManager - ===== Test Finished =====
+2026-07-01 22:31:13 INFO  utils.LoggerManager - ===== Test Started =====
+2026-07-01 22:31:13 INFO  utils.LoggerManager - Initializing browser: chrome
+2026-07-01 22:31:17 INFO  utils.LoggerManager - Chrome browser launched
+2026-07-01 22:31:27 INFO  utils.LoggerManager - Navigated to: https://www.urbanladder.com/
+2026-07-01 22:31:27 INFO  utils.LoggerManager - Starting TC_24
+2026-07-01 22:31:36 INFO  utils.LoggerManager - Opened Gift Card page from config
+2026-07-01 22:31:36 INFO  utils.LoggerManager - Gift card form loaded
+2026-07-01 22:31:36 INFO  utils.LoggerManager - Filling Gift Card form
+2026-07-01 22:31:37 INFO  utils.LoggerManager - Gift Card form filled successfully
+2026-07-01 22:32:13 INFO  utils.LoggerManager - ===== Test Finished =====
+2026-07-01 22:33:45 INFO  utils.LoggerManager - ===== Test Started =====
+2026-07-01 22:33:45 INFO  utils.LoggerManager - Initializing browser: chrome
+2026-07-01 22:33:48 INFO  utils.LoggerManager - Chrome browser launched
+2026-07-01 22:33:57 INFO  utils.LoggerManager - Navigated to: https://www.urbanladder.com/
+2026-07-01 22:33:57 INFO  utils.LoggerManager - Starting TC_24
+2026-07-01 22:33:58 INFO  utils.LoggerManager - Opened Gift Card page from config
+2026-07-01 22:34:02 INFO  utils.LoggerManager - Gift card form loaded
+2026-07-01 22:34:02 INFO  utils.LoggerManager - Filling Gift Card form
+2026-07-01 22:34:04 INFO  utils.LoggerManager - Gift Card form filled successfully
+2026-07-01 22:34:40 INFO  utils.LoggerManager - ===== Test Finished =====
+2026-07-01 22:38:52 INFO  utils.LoggerManager - ===== Test Started =====
+2026-07-01 22:38:52 INFO  utils.LoggerManager - Initializing browser: chrome
+2026-07-01 22:38:55 INFO  utils.LoggerManager - Chrome browser launched
+2026-07-01 22:39:04 INFO  utils.LoggerManager - Navigated to: https://www.urbanladder.com/
+2026-07-01 22:39:04 INFO  utils.LoggerManager - Starting TC_24
+2026-07-01 22:39:09 INFO  utils.LoggerManager - Opened Gift Card page from config
+2026-07-01 22:39:11 INFO  utils.LoggerManager - Gift card form loaded
+2026-07-01 22:39:11 INFO  utils.LoggerManager - Filling Gift Card form
+2026-07-01 22:39:12 INFO  utils.LoggerManager - Gift Card form filled successfully
+2026-07-01 22:39:47 INFO  utils.LoggerManager - ===== Test Finished =====
+2026-07-01 22:43:06 INFO  utils.LoggerManager - ===== Test Started =====
+2026-07-01 22:43:06 INFO  utils.LoggerManager - Initializing browser: chrome
+2026-07-01 22:43:12 INFO  utils.LoggerManager - Chrome browser launched
+2026-07-01 22:43:20 INFO  utils.LoggerManager - Navigated to: https://www.urbanladder.com/
+2026-07-01 22:43:20 INFO  utils.LoggerManager - Starting TC_24
+2026-07-01 22:43:25 INFO  utils.LoggerManager - Opened Gift Card page from config
+2026-07-01 22:43:26 INFO  utils.LoggerManager - Gift card form loaded
+2026-07-01 22:43:26 INFO  utils.LoggerManager - Filling Gift Card form
+2026-07-01 22:43:29 ERROR utils.LoggerManager - Error while filling form: element click intercepted: Element is not clickable at point (316, 1113)
+  (Session info: chrome=149.0.7827.103)
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d5f260487edef71bf6e3fa714d9844af, clickElement {id=f.3CFF7304C3C31262FF48F627C4B3B52E.d.746B7308F4F7253A2F39C790CEE72A58.e.31}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.103, chrome: {chromedriverVersion: 149.0.7827.155 (07b52360cc1..., userDataDir: C:\Users\2497748\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64352}, goog:processID: 3236, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64352/devtoo..., se:cdpVersion: 149.0.7827.103, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (d5f260487edef71bf6e3fa714d9844af)] -> xpath: //div[@id='sender-details']//input[@id='firstname']]
+Session ID: d5f260487edef71bf6e3fa714d9844af
+2026-07-01 22:43:32 INFO  utils.LoggerManager - ===== Test Finished =====
+2026-07-01 22:45:58 INFO  utils.LoggerManager - ===== Test Started =====
+2026-07-01 22:45:58 INFO  utils.LoggerManager - Initializing browser: chrome
+2026-07-01 22:46:01 INFO  utils.LoggerManager - Chrome browser launched
+2026-07-01 22:46:07 INFO  utils.LoggerManager - Navigated to: https://www.urbanladder.com/
+2026-07-01 22:46:07 INFO  utils.LoggerManager - Starting TC_24
+2026-07-01 22:46:12 INFO  utils.LoggerManager - Opened Gift Card page from config
+2026-07-01 22:46:13 INFO  utils.LoggerManager - Gift card form loaded
+2026-07-01 22:46:13 INFO  utils.LoggerManager - Scrolled to Gift Card Form
+2026-07-01 22:46:13 INFO  utils.LoggerManager - Filling Gift Card form
+2026-07-01 22:46:15 INFO  utils.LoggerManager - Gift Card form filled successfully
+2026-07-01 22:46:50 INFO  utils.LoggerManager - ===== Test Finished =====
+2026-07-01 22:51:45 INFO  utils.LoggerManager - ===== Test Started =====
+2026-07-01 22:51:45 INFO  utils.LoggerManager - Initializing browser: chrome
+2026-07-01 22:51:48 INFO  utils.LoggerManager - Chrome browser launched
+2026-07-01 22:51:55 INFO  utils.LoggerManager - Navigated to: https://www.urbanladder.com/
+2026-07-01 22:51:55 INFO  utils.LoggerManager - Starting TC_24
+2026-07-01 22:52:05 INFO  utils.LoggerManager - Opened Gift Card page from config
+2026-07-01 22:52:07 INFO  utils.LoggerManager - Gift card form loaded
+2026-07-01 22:52:07 INFO  utils.LoggerManager - Scrolled to Gift Card Form
+2026-07-01 22:52:07 INFO  utils.LoggerManager - Filling Gift Card form
+2026-07-01 22:52:09 INFO  utils.LoggerManager - Gift Card form filled successfully
+2026-07-01 22:52:45 INFO  utils.LoggerManager - ===== Test Finished =====
+2026-07-01 22:53:40 INFO  utils.LoggerManager - ===== Test Started =====
+2026-07-01 22:53:40 INFO  utils.LoggerManager - Initializing browser: chrome
+2026-07-01 22:53:44 INFO  utils.LoggerManager - Chrome browser launched
+2026-07-01 22:53:50 INFO  utils.LoggerManager - Navigated to: https://www.urbanladder.com/
+2026-07-01 22:53:50 INFO  utils.LoggerManager - Starting TC_23
+2026-07-01 22:53:50 INFO  utils.LoggerManager - Clicking Gift Cards link
+2026-07-01 22:53:56 INFO  utils.LoggerManager - Switched to Gift Card window
+2026-07-01 22:53:57 INFO  utils.LoggerManager - Anniversary card selected
+2026-07-01 22:53:57 INFO  utils.LoggerManager - Gift card form loaded
+2026-07-01 22:53:58 INFO  utils.LoggerManager - Excel file loaded
+2026-07-01 22:53:58 INFO  utils.LoggerManager - Excel data fetched successfully
+2026-07-01 22:53:58 INFO  utils.LoggerManager - Filling Gift Card form
+2026-07-01 22:54:01 INFO  utils.LoggerManager - Gift Card form filled successfully
+2026-07-01 22:54:05 INFO  utils.LoggerManager - ===== Test Finished =====
+2026-07-01 23:00:40 INFO  utils.LoggerManager - ===== Test Started =====
+2026-07-01 23:00:40 INFO  utils.LoggerManager - Initializing browser: chrome
+2026-07-01 23:00:44 INFO  utils.LoggerManager - Chrome browser launched
+2026-07-01 23:00:47 INFO  utils.LoggerManager - Navigated to: https://www.urbanladder.com/
+2026-07-01 23:00:47 INFO  utils.LoggerManager - Starting TC_23
+2026-07-01 23:00:47 INFO  utils.LoggerManager - Clicking Gift Cards link
+2026-07-01 23:00:52 INFO  utils.LoggerManager - Switched to Gift Card window
+2026-07-01 23:00:53 INFO  utils.LoggerManager - Anniversary card selected
+2026-07-01 23:00:53 INFO  utils.LoggerManager - Gift card form loaded
+2026-07-01 23:00:55 INFO  utils.LoggerManager - Excel file loaded
+2026-07-01 23:00:55 INFO  utils.LoggerManager - Excel data fetched successfully
+2026-07-01 23:00:55 INFO  utils.LoggerManager - Filling Gift Card form
+2026-07-01 23:00:56 INFO  utils.LoggerManager - Gift Card form filled successfully
+2026-07-01 23:01:02 INFO  utils.LoggerManager - ===== Test Finished =====
+2026-07-01 23:01:17 INFO  utils.LoggerManager - ===== Test Started =====
+2026-07-01 23:01:17 INFO  utils.LoggerManager - Initializing browser: chrome
+2026-07-01 23:01:20 INFO  utils.LoggerManager - Chrome browser launched
+2026-07-01 23:01:24 INFO  utils.LoggerManager - Navigated to: https://www.urbanladder.com/
+2026-07-01 23:01:24 INFO  utils.LoggerManager - Starting TC_24
+2026-07-01 23:01:27 INFO  utils.LoggerManager - Opened Gift Card page from config
+2026-07-01 23:01:29 INFO  utils.LoggerManager - Gift card form loaded
+2026-07-01 23:01:29 INFO  utils.LoggerManager - Scrolled to Gift Card Form
+2026-07-01 23:01:29 INFO  utils.LoggerManager - Filling Gift Card form
+2026-07-01 23:01:30 INFO  utils.LoggerManager - Gift Card form filled successfully
+2026-07-01 23:01:31 INFO  utils.LoggerManager - Validation message captured: Please enter Sender's Email Address
+2026-07-01 23:01:35 INFO  utils.LoggerManager - ===== Test Finished =====
+2026-07-01 23:04:42 INFO  utils.LoggerManager - ===== Test Started =====
+2026-07-01 23:04:42 INFO  utils.LoggerManager - Initializing browser: chrome
+2026-07-01 23:04:46 INFO  utils.LoggerManager - Chrome browser launched
+2026-07-01 23:04:50 INFO  utils.LoggerManager - Navigated to: https://www.urbanladder.com/
+2026-07-01 23:04:50 INFO  utils.LoggerManager - Starting TC_24
+2026-07-01 23:04:54 INFO  utils.LoggerManager - Opened Gift Card page from config
+2026-07-01 23:04:56 INFO  utils.LoggerManager - Gift card form loaded
+2026-07-01 23:04:56 INFO  utils.LoggerManager - Scrolled to Gift Card Form
+2026-07-01 23:04:56 INFO  utils.LoggerManager - Filling Gift Card form
+2026-07-01 23:04:57 INFO  utils.LoggerManager - Gift Card form filled successfully
+2026-07-01 23:04:59 INFO  utils.LoggerManager - Validation message captured: Please enter Sender's Email Address
+2026-07-01 23:05:03 INFO  utils.LoggerManager - ===== Test Finished =====
+2026-07-01 23:13:25 INFO  utils.LoggerManager - ===== Test Started =====
+2026-07-01 23:13:25 INFO  utils.LoggerManager - Initializing browser: chrome
+2026-07-01 23:13:29 INFO  utils.LoggerManager - Chrome browser launched
+2026-07-01 23:13:33 INFO  utils.LoggerManager - Navigated to: https://www.urbanladder.com/
+2026-07-01 23:13:33 INFO  utils.LoggerManager - Starting TC_24
+2026-07-01 23:13:33 INFO  utils.LoggerManager - Clicking Gift Cards link
+2026-07-01 23:13:42 INFO  utils.LoggerManager - Switched to Gift Card window
+2026-07-01 23:13:43 INFO  utils.LoggerManager - Anniversary card selected
+2026-07-01 23:13:44 INFO  utils.LoggerManager - Gift card form loaded
+2026-07-01 23:13:45 INFO  utils.LoggerManager - Excel data fetched successfully
+2026-07-01 23:13:45 INFO  utils.LoggerManager - Filling Gift Card form
+2026-07-01 23:13:47 INFO  utils.LoggerManager - Gift Card form filled successfully
+2026-07-01 23:13:48 INFO  utils.LoggerManager - Validation message captured: Please enter Sender's Email Address
+2026-07-01 23:13:52 INFO  utils.LoggerManager - ===== Test Finished =====
+2026-07-01 23:17:40 INFO  utils.LoggerManager - ===== Test Started =====
+2026-07-01 23:17:40 INFO  utils.LoggerManager - Initializing browser: chrome
+2026-07-01 23:17:46 INFO  utils.LoggerManager - Chrome browser launched
+2026-07-01 23:17:56 INFO  utils.LoggerManager - Navigated to: https://www.urbanladder.com/
+2026-07-01 23:17:56 INFO  utils.LoggerManager - Starting TC_24
+2026-07-01 23:17:56 INFO  utils.LoggerManager - Clicking Gift Cards link
+2026-07-01 23:18:02 INFO  utils.LoggerManager - Switched to Gift Card window
+2026-07-01 23:18:03 INFO  utils.LoggerManager - Anniversary card selected
+2026-07-01 23:18:03 INFO  utils.LoggerManager - Gift card form loaded
+2026-07-01 23:18:05 INFO  utils.LoggerManager - Excel data fetched successfully
+2026-07-01 23:18:05 INFO  utils.LoggerManager - Filling Gift Card form
+2026-07-01 23:18:06 INFO  utils.LoggerManager - Gift Card form filled successfully
+2026-07-01 23:18:07 ERROR utils.LoggerManager - Test failed: element click intercepted: Element is not clickable at point (316, 838)
+  (Session info: chrome=149.0.7827.103)
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f1d406a5f07a2dbf468e27cf5d97df2b, clickElement {id=f.2A1E1D01A3CFDFB476362D56C6C1A87E.d.74533F01BDDA69C4DFF8595DDCB20BB5.e.41}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.103, chrome: {chromedriverVersion: 149.0.7827.155 (07b52360cc1..., userDataDir: C:\Users\2497748\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54710}, goog:processID: 32612, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54710/devtoo..., se:cdpVersion: 149.0.7827.103, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (f1d406a5f07a2dbf468e27cf5d97df2b)] -> xpath: //div[@id='sender-details']//input[@id='firstname']]
+Session ID: f1d406a5f07a2dbf468e27cf5d97df2b
+2026-07-01 23:18:16 INFO  utils.LoggerManager - ===== Test Finished =====
+2026-07-01 23:21:52 INFO  utils.LoggerManager - ===== Test Started =====
+2026-07-01 23:21:52 INFO  utils.LoggerManager - Initializing browser: chrome
+2026-07-01 23:21:58 INFO  utils.LoggerManager - Chrome browser launched
+2026-07-01 23:22:06 INFO  utils.LoggerManager - Navigated to: https://www.urbanladder.com/
+2026-07-01 23:22:06 INFO  utils.LoggerManager - Starting TC_24
+2026-07-01 23:22:06 INFO  utils.LoggerManager - Clicking Gift Cards link
+2026-07-01 23:22:13 INFO  utils.LoggerManager - Switched to Gift Card window
+2026-07-01 23:22:14 INFO  utils.LoggerManager - Anniversary card selected
+2026-07-01 23:22:14 INFO  utils.LoggerManager - Gift card form loaded
+2026-07-01 23:22:16 INFO  utils.LoggerManager - Excel data fetched successfully
+2026-07-01 23:22:16 INFO  utils.LoggerManager - Filling Gift Card form
+2026-07-01 23:22:18 INFO  utils.LoggerManager - Gift Card form filled successfully
+2026-07-01 23:22:50 ERROR utils.LoggerManager - Test failed: Expected condition failed: waiting for visibility of element located by By.xpath: //div[@id='sender-details']//div[contains(text(),'Email')] (tried for 25 second(s) with 500 milliseconds interval)
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.103, chrome: {chromedriverVersion: 149.0.7827.155 (07b52360cc1..., userDataDir: C:\Users\2497748\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59159}, goog:processID: 17672, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59159/devtoo..., se:cdpVersion: 149.0.7827.103, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ee6f4dbbe0b1df6db247abceec49a590
+2026-07-01 23:23:08 INFO  utils.LoggerManager - ===== Test Started =====
+2026-07-01 23:23:08 INFO  utils.LoggerManager - Initializing browser: chrome
+2026-07-01 23:23:14 INFO  utils.LoggerManager - Chrome browser launched
+2026-07-01 23:23:21 INFO  utils.LoggerManager - Navigated to: https://www.urbanladder.com/
+2026-07-01 23:23:21 INFO  utils.LoggerManager - Starting TC_23
+2026-07-01 23:23:21 INFO  utils.LoggerManager - Clicking Gift Cards link
+2026-07-01 23:23:27 INFO  utils.LoggerManager - Switched to Gift Card window
+2026-07-01 23:23:28 INFO  utils.LoggerManager - Anniversary card selected
+2026-07-01 23:23:28 INFO  utils.LoggerManager - Gift card form loaded
+2026-07-01 23:23:30 INFO  utils.LoggerManager - Excel file loaded
+2026-07-01 23:23:30 INFO  utils.LoggerManager - Excel data fetched successfully
+2026-07-01 23:23:30 INFO  utils.LoggerManager - Filling Gift Card form
+2026-07-01 23:23:31 INFO  utils.LoggerManager - Gift Card form filled successfully
+2026-07-01 23:23:38 INFO  utils.LoggerManager - ===== Test Finished =====
+2026-07-02 09:21:36 INFO  utils.LoggerManager - ===== Test Started =====
+2026-07-02 09:21:36 INFO  utils.LoggerManager - Initializing browser: chrome
+2026-07-02 09:21:40 INFO  utils.LoggerManager - Chrome browser launched
+2026-07-02 09:21:52 INFO  utils.LoggerManager - Navigated to: https://www.urbanladder.com/
+2026-07-02 09:21:52 INFO  utils.LoggerManager - Starting TC_23
+2026-07-02 09:21:53 INFO  utils.LoggerManager - Clicking Gift Cards link
+2026-07-02 09:22:04 INFO  utils.LoggerManager - Switched to Gift Card window
+2026-07-02 09:22:05 INFO  utils.LoggerManager - Anniversary card selected
+2026-07-02 09:22:05 INFO  utils.LoggerManager - Gift card form loaded
+2026-07-02 09:22:06 INFO  utils.LoggerManager - Excel file loaded
+2026-07-02 09:22:06 INFO  utils.LoggerManager - Excel data fetched successfully
+2026-07-02 09:22:06 INFO  utils.LoggerManager - Filling Gift Card form
+2026-07-02 09:22:06 INFO  utils.LoggerManager - Gift Card form filled successfully
+2026-07-02 09:22:10 INFO  utils.LoggerManager - ===== Test Finished =====
+2026-07-02 09:22:41 INFO  utils.LoggerManager - ===== Test Started =====
+2026-07-02 09:22:41 INFO  utils.LoggerManager - Initializing browser: chrome
+2026-07-02 09:22:44 INFO  utils.LoggerManager - Chrome browser launched
+2026-07-02 09:22:47 INFO  utils.LoggerManager - Navigated to: https://www.urbanladder.com/
+2026-07-02 09:22:47 INFO  utils.LoggerManager - Starting TC_24
+2026-07-02 09:22:47 INFO  utils.LoggerManager - Clicking Gift Cards link
+2026-07-02 09:22:50 INFO  utils.LoggerManager - Switched to Gift Card window
+2026-07-02 09:22:51 INFO  utils.LoggerManager - Anniversary card selected
+2026-07-02 09:22:51 INFO  utils.LoggerManager - Gift card form loaded
+2026-07-02 09:22:52 INFO  utils.LoggerManager - Excel data fetched successfully
+2026-07-02 09:22:52 INFO  utils.LoggerManager - Filling Gift Card form
+2026-07-02 09:22:52 INFO  utils.LoggerManager - Gift Card form filled successfully
+2026-07-02 09:23:25 ERROR utils.LoggerManager - Test failed: Expected condition failed: waiting for visibility of element located by By.xpath: //div[@id='sender-details']//div[contains(text(),'Email')] (tried for 25 second(s) with 500 milliseconds interval)
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.103, chrome: {chromedriverVersion: 149.0.7827.155 (07b52360cc1..., userDataDir: C:\Users\2497748\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59013}, goog:processID: 28212, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59013/devtoo..., se:cdpVersion: 149.0.7827.103, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b4251bacd044594804c635d99fe416ff
+2026-07-02 09:23:29 INFO  utils.LoggerManager - ===== Test Finished =====
+2026-07-02 09:35:32 INFO  utils.LoggerManager - ===== Test Started =====
+2026-07-02 09:35:32 INFO  utils.LoggerManager - Initializing browser: chrome
+2026-07-02 09:35:35 INFO  utils.LoggerManager - Chrome browser launched
+2026-07-02 09:35:38 INFO  utils.LoggerManager - Navigated to: https://www.urbanladder.com/
+2026-07-02 09:35:38 INFO  utils.LoggerManager - Starting TC_24
+2026-07-02 09:35:38 INFO  utils.LoggerManager - Clicking Gift Cards link
+2026-07-02 09:35:42 INFO  utils.LoggerManager - Switched to Gift Card window
+2026-07-02 09:35:43 INFO  utils.LoggerManager - Anniversary card selected
+2026-07-02 09:35:43 INFO  utils.LoggerManager - Gift card form loaded
+2026-07-02 09:35:44 INFO  utils.LoggerManager - Excel data fetched successfully
+2026-07-02 09:35:44 INFO  utils.LoggerManager - Filling Gift Card form
+2026-07-02 09:35:45 INFO  utils.LoggerManager - Gift Card form filled successfully
+2026-07-02 09:36:18 ERROR utils.LoggerManager - Test failed: Expected condition failed: waiting for visibility of element located by By.xpath: //*[@id='sender-details']/div[2]/div/div[3]/div/div[2] (tried for 25 second(s) with 500 milliseconds interval)
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.103, chrome: {chromedriverVersion: 149.0.7827.155 (07b52360cc1..., userDataDir: C:\Users\2497748\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61471}, goog:processID: 9484, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61471/devtoo..., se:cdpVersion: 149.0.7827.103, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 416a19e7045e0438a121ce4ecdf0e80e
+2026-07-02 09:36:22 INFO  utils.LoggerManager - ===== Test Finished =====
+2026-07-02 09:43:38 INFO  utils.LoggerManager - ===== Test Started =====
+2026-07-02 09:43:38 INFO  utils.LoggerManager - Initializing browser: chrome
+2026-07-02 09:43:41 INFO  utils.LoggerManager - Chrome browser launched
+2026-07-02 09:43:45 INFO  utils.LoggerManager - Navigated to: https://www.urbanladder.com/
+2026-07-02 09:43:45 INFO  utils.LoggerManager - Starting TC_24
+2026-07-02 09:43:45 INFO  utils.LoggerManager - Clicking Gift Cards link
+2026-07-02 09:43:48 INFO  utils.LoggerManager - Switched to Gift Card window
+2026-07-02 09:43:49 INFO  utils.LoggerManager - Anniversary card selected
+2026-07-02 09:43:49 INFO  utils.LoggerManager - Gift card form loaded
+2026-07-02 09:43:50 INFO  utils.LoggerManager - Excel data fetched successfully
+2026-07-02 09:43:50 INFO  utils.LoggerManager - Filling Gift Card form
+2026-07-02 09:43:51 INFO  utils.LoggerManager - Gift Card form filled successfully
+2026-07-02 09:43:51 INFO  utils.LoggerManager - Email validation triggered
+2026-07-02 09:43:53 INFO  utils.LoggerManager - Invalid Email Validation Verified Successfully
+2026-07-02 09:43:57 INFO  utils.LoggerManager - ===== Test Finished =====
+2026-07-02 09:47:35 INFO  utils.LoggerManager - ===== Test Started =====
+2026-07-02 09:47:35 INFO  utils.LoggerManager - Initializing browser: chrome
+2026-07-02 09:47:38 INFO  utils.LoggerManager - Chrome browser launched
+2026-07-02 09:47:41 INFO  utils.LoggerManager - Navigated to: https://www.urbanladder.com/
+2026-07-02 09:47:41 INFO  utils.LoggerManager - Starting TC_24
+2026-07-02 09:47:41 INFO  utils.LoggerManager - Clicking Gift Cards link
+2026-07-02 09:47:44 INFO  utils.LoggerManager - Switched to Gift Card window
+2026-07-02 09:47:45 INFO  utils.LoggerManager - Anniversary card selected
+2026-07-02 09:47:45 INFO  utils.LoggerManager - Gift card form loaded
+2026-07-02 09:47:46 INFO  utils.LoggerManager - Excel data fetched successfully
+2026-07-02 09:47:46 INFO  utils.LoggerManager - Filling Gift Card form
+2026-07-02 09:47:47 INFO  utils.LoggerManager - Gift Card form filled successfully
+2026-07-02 09:47:47 INFO  utils.LoggerManager - Email validation triggered
+2026-07-02 09:47:49 INFO  utils.LoggerManager - Invalid Email Validation Verified Successfully
+2026-07-02 09:47:53 INFO  utils.LoggerManager - ===== Test Finished =====
+2026-07-02 10:17:28 INFO  utils.LoggerManager - ===== Test Started =====
+2026-07-02 10:17:28 INFO  utils.LoggerManager - Initializing browser: chrome
+2026-07-02 10:17:32 INFO  utils.LoggerManager - Chrome browser launched
+2026-07-02 10:17:44 INFO  utils.LoggerManager - Navigated to: https://www.urbanladder.com/
+2026-07-02 10:17:44 INFO  utils.LoggerManager - Starting TC_24
+2026-07-02 10:17:45 INFO  utils.LoggerManager - Clicking Gift Cards link
+2026-07-02 10:17:58 INFO  utils.LoggerManager - Switched to Gift Card window
+2026-07-02 10:17:59 INFO  utils.LoggerManager - Anniversary card selected
+2026-07-02 10:17:59 INFO  utils.LoggerManager - Gift card form loaded
+2026-07-02 10:18:00 INFO  utils.LoggerManager - Excel data fetched successfully
+2026-07-02 10:18:00 INFO  utils.LoggerManager - Filling Gift Card form
+2026-07-02 10:18:01 INFO  utils.LoggerManager - Gift Card form filled successfully
+2026-07-02 10:18:01 INFO  utils.LoggerManager - Email validation triggered
+2026-07-02 10:18:01 INFO  utils.LoggerManager - Actual Validation Message : Enter valid Email ID.
+2026-07-02 10:18:01 INFO  utils.LoggerManager - Invalid Email Validation Verified Successfully
+2026-07-02 10:18:03 INFO  utils.LoggerManager - Invalid Email Validation Verified Successfully
+2026-07-02 10:18:07 INFO  utils.LoggerManager - ===== Test Finished =====
+2026-07-02 10:21:04 INFO  utils.LoggerManager - ===== Test Started =====
+2026-07-02 10:21:04 INFO  utils.LoggerManager - Initializing browser: chrome
+2026-07-02 10:21:07 INFO  utils.LoggerManager - Chrome browser launched
+2026-07-02 10:21:25 INFO  utils.LoggerManager - Navigated to: https://www.urbanladder.com/
+2026-07-02 10:21:25 INFO  utils.LoggerManager - Starting TC_23
+2026-07-02 10:21:25 INFO  utils.LoggerManager - Clicking Gift Cards link
+2026-07-02 10:21:35 INFO  utils.LoggerManager - Switched to Gift Card window
+2026-07-02 10:21:36 INFO  utils.LoggerManager - Anniversary card selected
+2026-07-02 10:21:36 INFO  utils.LoggerManager - Gift card form loaded
+2026-07-02 10:21:37 INFO  utils.LoggerManager - Excel file loaded
+2026-07-02 10:21:37 INFO  utils.LoggerManager - Excel data fetched successfully
+2026-07-02 10:21:37 INFO  utils.LoggerManager - Filling Gift Card form
+2026-07-02 10:21:38 INFO  utils.LoggerManager - Gift Card form filled successfully
+2026-07-02 10:21:42 INFO  utils.LoggerManager - ===== Test Finished =====
+2026-07-02 10:34:47 INFO  utils.LoggerManager - ===== Test Started =====
+2026-07-02 10:34:47 INFO  utils.LoggerManager - Initializing browser: chrome
+2026-07-02 10:34:52 INFO  utils.LoggerManager - Chrome browser launched
+2026-07-02 10:35:00 INFO  utils.LoggerManager - Navigated to: https://www.urbanladder.com/
+2026-07-02 10:35:00 INFO  utils.LoggerManager - Starting TC_23
+2026-07-02 10:35:00 INFO  utils.LoggerManager - Clicking Gift Cards link
+2026-07-02 10:35:09 INFO  utils.LoggerManager - Switched to Gift Card window
+2026-07-02 10:35:10 INFO  utils.LoggerManager - Anniversary card selected
+2026-07-02 10:35:10 INFO  utils.LoggerManager - Gift card form loaded
+2026-07-02 10:35:11 INFO  utils.LoggerManager - Excel file loaded
+2026-07-02 10:35:11 INFO  utils.LoggerManager - Excel data fetched successfully
+2026-07-02 10:35:11 INFO  utils.LoggerManager - Filling Gift Card form
+2026-07-02 10:35:12 INFO  utils.LoggerManager - Gift Card form filled successfully
+2026-07-02 10:35:16 INFO  utils.LoggerManager - ===== Test Finished =====
+2026-07-02 10:35:16 INFO  utils.LoggerManager - ===== Test Started =====
+2026-07-02 10:35:16 INFO  utils.LoggerManager - Initializing browser: chrome
+2026-07-02 10:35:19 INFO  utils.LoggerManager - Chrome browser launched
+2026-07-02 10:35:27 INFO  utils.LoggerManager - Navigated to: https://www.urbanladder.com/
+2026-07-02 10:35:27 INFO  utils.LoggerManager - Starting TC_24
+2026-07-02 10:35:27 INFO  utils.LoggerManager - Clicking Gift Cards link
+2026-07-02 10:35:37 INFO  utils.LoggerManager - Switched to Gift Card window
+2026-07-02 10:35:38 INFO  utils.LoggerManager - Anniversary card selected
+2026-07-02 10:35:38 INFO  utils.LoggerManager - Gift card form loaded
+2026-07-02 10:35:38 INFO  utils.LoggerManager - Excel data fetched successfully
+2026-07-02 10:35:38 INFO  utils.LoggerManager - Filling Gift Card form
+2026-07-02 10:35:40 INFO  utils.LoggerManager - Gift Card form filled successfully
+2026-07-02 10:35:40 INFO  utils.LoggerManager - Email validation triggered
+2026-07-02 10:35:40 INFO  utils.LoggerManager - Actual Validation Message : Enter valid Email ID.
+2026-07-02 10:35:40 INFO  utils.LoggerManager - Invalid Email Validation Verified Successfully
+2026-07-02 10:35:42 INFO  utils.LoggerManager - Invalid Email Validation Verified Successfully
+2026-07-02 10:35:46 INFO  utils.LoggerManager - ===== Test Finished =====
+2026-07-02 10:51:54 INFO  utils.LoggerManager - ===== Test Started =====
+2026-07-02 10:51:54 INFO  utils.LoggerManager - Initializing browser: chrome
+2026-07-02 10:51:57 INFO  utils.LoggerManager - Chrome browser launched
+2026-07-02 10:52:08 INFO  utils.LoggerManager - Navigated to: https://www.urbanladder.com/
+2026-07-02 10:52:08 INFO  utils.LoggerManager - Starting TC_23
+2026-07-02 10:52:08 INFO  utils.LoggerManager - Clicking Gift Cards link
+2026-07-02 10:52:17 INFO  utils.LoggerManager - Switched to Gift Card window
+2026-07-02 10:52:17 INFO  utils.LoggerManager - Anniversary card selected
+2026-07-02 10:52:17 INFO  utils.LoggerManager - Gift card form loaded
+2026-07-02 10:52:18 INFO  utils.LoggerManager - Excel file loaded
+2026-07-02 10:52:18 INFO  utils.LoggerManager - Excel data fetched successfully
+2026-07-02 10:52:18 INFO  utils.LoggerManager - Filling Gift Card form
+2026-07-02 10:52:20 INFO  utils.LoggerManager - Gift Card form filled successfully
+2026-07-02 10:52:24 INFO  utils.LoggerManager - ===== Test Finished =====
