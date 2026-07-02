@@ -17,6 +17,8 @@
             <class name="giftcards.TC_21_NavigateToGiftCardsTest"/>
             <class name="giftcards.TC_22_SelectAnniversaryGiftCardTest"/>
             -->
+            <class name="collections.TC_19_NavigateToBedroomUnderOasisTest"/>
+            <class name="collections.TC_20_GetNoOfBedroomCollection"/>
         </classes>
     </test>
 
