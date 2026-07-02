@@ -10,17 +10,12 @@ import utils.LoggerManager;
 import java.time.Duration;
 
 public class DriverFactory {
-
     private static WebDriver driver;
-
     public static WebDriver initDriver(String browserParam) {
-
         String browser = (browserParam != null)
                 ? browserParam
                 : ConfigReader.getProperty("browser");
-
         LoggerManager.info("Initializing browser: " + browser);
-
         switch (browser.toLowerCase()) {
 
             case "chrome":
@@ -36,20 +31,15 @@ public class DriverFactory {
             default:
                 throw new RuntimeException("Invalid browser: " + browser);
         }
-
         driver.manage().window().maximize();
-
         driver.manage().timeouts().implicitlyWait(
                 Duration.ofSeconds(Long.parseLong(ConfigReader.getProperty("implicitWait")))
         );
-
         driver.manage().timeouts().pageLoadTimeout(
                 Duration.ofSeconds(Long.parseLong(ConfigReader.getProperty("pageLoadTimeout")))
         );
-
         return driver;
     }
-
     public static void quitDriver() {
         if (driver != null) {
             driver.quit();

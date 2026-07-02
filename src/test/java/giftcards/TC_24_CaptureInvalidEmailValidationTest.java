@@ -1,14 +1,11 @@
 package giftcards;
-
 import base.BaseTest;
 import org.furniture.pages.GiftCardsPage;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 import org.testng.annotations.Test;
-
 import com.aventstack.extentreports.Status;
-
 import utils.ExcelUtils;
 import utils.ExtentReportManager;
 import utils.LoggerManager;
