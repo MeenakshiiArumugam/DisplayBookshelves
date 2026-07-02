@@ -22,22 +22,17 @@ public class BaseTest {
     @Parameters("browser")
     @BeforeMethod
     public void setUp(@Optional("chrome") String browser, Method method) {
-
         LoggerManager.info("===== Test Started =====");
-
         //  Create report entry
         ExtentReportManager.createTest(method.getName());
         driver = DriverFactory.initDriver(browser);
-
         String url = ConfigReader.getProperty("url");
         driver.get(url);
-
         LoggerManager.info("Navigated to: " + url);
     }
 
     @AfterMethod
     public void tearDown(ITestResult result) {
-
         if (result.getStatus() == ITestResult.SUCCESS) {
             ExtentReportManager.getTest().pass("Test Passed ✅");
         }
@@ -47,12 +42,9 @@ public class BaseTest {
         else if (result.getStatus() == ITestResult.SKIP) {
             ExtentReportManager.getTest().skip("Test Skipped");
         }
-
         DriverFactory.quitDriver();
-
         LoggerManager.info("===== Test Finished =====");
     }
-
     @AfterSuite
     public void flushReport() {
         ExtentReportManager.getReportInstance().flush();

@@ -41,7 +41,6 @@ public class TC_05_BookshelfNameAndPriceDisplayTestOfThree extends BaseTest {
             String result = "Bookshelf " + (i+1) +
                     " → Name: " + names.get(i) +
                     " | Price: " + prices.get(i);
-
             LoggerManager.info(result);
             ExtentReportManager.getTest().log(Status.PASS, result);
         }
