@@ -4,6 +4,8 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.*;
 import utils.LoggerManager;
+import utils.PopupHandler;
+
 import java.time.Duration;
 
 public class GiftCardsPage {
@@ -47,11 +49,13 @@ public class GiftCardsPage {
 // Navigation
 
     public void clickGiftCards() {
+        PopupHandler.closePopupIfPresent(driver);
         LoggerManager.info("Clicking Gift Cards link");
         wait.until(ExpectedConditions.elementToBeClickable(giftCardsLink)).click();
     }
 
     public void switchToGiftCardWindow() {
+        PopupHandler.closePopupIfPresent(driver);
         String parentWindow = driver.getWindowHandle();
         wait.until(ExpectedConditions.numberOfWindowsToBe(2));
         for (String window : driver.getWindowHandles()) {
@@ -68,7 +72,7 @@ public class GiftCardsPage {
         return driver.getCurrentUrl().contains("woohoo");
     }
 
-// Anniversary Card
+    // Anniversary Card
     public void selectAnniversaryCard() {
         WebElement card = wait.until(
                 ExpectedConditions.visibilityOfElementLocated(anniversaryCard)
@@ -96,7 +100,7 @@ public class GiftCardsPage {
             return false;
         }
     }
-// Form
+    // Form
     public void waitForGiftCardFormToLoad() {
         wait.until(ExpectedConditions.visibilityOfElementLocated(amountField));
         LoggerManager.info("Gift card form loaded");
@@ -113,6 +117,7 @@ public class GiftCardsPage {
                                  String receiverEmailVal,
                                  String message) {
 
+        PopupHandler.closePopupIfPresent(driver);
         LoggerManager.info("Filling Gift Card form");
 
         WebElement amt = wait.until(
@@ -173,7 +178,7 @@ public class GiftCardsPage {
 
         LoggerManager.info("Gift Card form filled successfully");
     }
-// Email Validation
+    // Email Validation
     public void triggerEmailValidation() {
         WebElement emailField = wait.until(
                 ExpectedConditions.visibilityOfElementLocated(senderEmail)
@@ -191,7 +196,7 @@ public class GiftCardsPage {
         );
         return error.getText().trim();
     }
-// Getters
+    // Getters
     public String getAmountValue() {
         return driver.findElement(amountField).getAttribute("value");
     }
