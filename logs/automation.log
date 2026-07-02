@@ -2536,3 +2536,209 @@ Session ID: b9dced6c79133aa66a09f8f15a804a49
 2026-07-02 17:44:07 INFO  utils.LoggerManager - Browser closed successfully
 2026-07-02 17:44:07 INFO  utils.LoggerManager - ===== Test Finished =====
 >>>>>>> main
+2026-07-02 21:34:36 INFO  utils.LoggerManager - ===== Test Started =====
+2026-07-02 21:34:36 INFO  utils.LoggerManager - Initializing browser : chrome
+2026-07-02 21:34:43 INFO  utils.LoggerManager - Chrome browser launched
+2026-07-02 21:34:54 INFO  utils.LoggerManager - Navigated to: https://www.urbanladder.com/
+2026-07-02 21:34:54 INFO  utils.LoggerManager - Starting TC_09
+2026-07-02 21:34:55 INFO  utils.LoggerManager - Clicked Bookshelves category
+2026-07-02 21:34:56 INFO  utils.LoggerManager - Successfully navigated to Bookshelves page
+2026-07-02 21:35:01 INFO  utils.LoggerManager - Browser closed successfully
+2026-07-02 21:35:01 INFO  utils.LoggerManager - ===== Test Finished =====
+2026-07-02 21:47:43 INFO  utils.LoggerManager - ===== Test Started =====
+2026-07-02 21:47:43 INFO  utils.LoggerManager - Initializing browser : chrome
+2026-07-02 21:47:47 INFO  utils.LoggerManager - Chrome browser launched
+2026-07-02 21:47:55 INFO  utils.LoggerManager - Navigated to: https://www.urbanladder.com/
+2026-07-02 21:47:55 INFO  utils.LoggerManager - Starting TC_10
+2026-07-02 21:47:55 INFO  utils.LoggerManager - Waiting for search box
+2026-07-02 21:47:56 INFO  utils.LoggerManager - Clicking search box
+2026-07-02 21:47:56 INFO  utils.LoggerManager - Typing Bookshelves
+2026-07-02 21:47:56 INFO  utils.LoggerManager - Pressing Enter
+2026-07-02 21:47:57 INFO  utils.LoggerManager - Selected Product : Alberto Solid Wood Bookshelf in Teak Finish
+2026-07-02 21:47:58 INFO  utils.LoggerManager - Switched to Product tab
+2026-07-02 21:48:34 INFO  utils.LoggerManager - Browser closed successfully
+2026-07-02 21:48:34 INFO  utils.LoggerManager - ===== Test Finished =====
+2026-07-02 21:48:42 INFO  utils.LoggerManager - ===== Test Started =====
+2026-07-02 21:48:42 INFO  utils.LoggerManager - Initializing browser : chrome
+2026-07-02 21:48:46 INFO  utils.LoggerManager - Chrome browser launched
+2026-07-02 21:48:54 INFO  utils.LoggerManager - Navigated to: https://www.urbanladder.com/
+2026-07-02 21:48:55 INFO  utils.LoggerManager - Starting TC_10
+2026-07-02 21:48:55 INFO  utils.LoggerManager - Waiting for search box
+2026-07-02 21:48:55 INFO  utils.LoggerManager - Clicking search box
+2026-07-02 21:48:55 INFO  utils.LoggerManager - Typing Bookshelves
+2026-07-02 21:48:56 INFO  utils.LoggerManager - Pressing Enter
+2026-07-02 21:48:56 INFO  utils.LoggerManager - Selected Product : Alberto Solid Wood Bookshelf in Teak Finish
+2026-07-02 21:48:57 INFO  utils.LoggerManager - Switched to Product tab
+2026-07-02 21:49:32 INFO  utils.LoggerManager - Browser closed successfully
+2026-07-02 21:49:32 INFO  utils.LoggerManager - ===== Test Finished =====
+2026-07-02 21:52:44 INFO  utils.LoggerManager - ===== Test Started =====
+2026-07-02 21:52:44 INFO  utils.LoggerManager - Initializing browser : chrome
+2026-07-02 21:52:49 INFO  utils.LoggerManager - ===== Test Started =====
+2026-07-02 21:52:49 INFO  utils.LoggerManager - Initializing browser : chrome
+2026-07-02 21:52:49 INFO  utils.LoggerManager - Chrome browser launched
+2026-07-02 21:52:54 INFO  utils.LoggerManager - Chrome browser launched
+2026-07-02 21:53:02 INFO  utils.LoggerManager - Navigated to: https://www.urbanladder.com/
+2026-07-02 21:53:02 INFO  utils.LoggerManager - Navigated to: https://www.urbanladder.com/
+2026-07-02 21:53:02 INFO  utils.LoggerManager - Starting TC_10
+2026-07-02 21:53:03 INFO  utils.LoggerManager - Waiting for search box
+2026-07-02 21:53:03 INFO  utils.LoggerManager - Starting TC_10
+2026-07-02 21:53:03 INFO  utils.LoggerManager - Waiting for search box
+2026-07-02 21:53:04 INFO  utils.LoggerManager - Clicking search box
+2026-07-02 21:53:04 INFO  utils.LoggerManager - Typing Bookshelves
+2026-07-02 21:53:04 INFO  utils.LoggerManager - Pressing Enter
+2026-07-02 21:53:04 INFO  utils.LoggerManager - Clicking search box
+2026-07-02 21:53:04 INFO  utils.LoggerManager - Typing Bookshelves
+2026-07-02 21:53:04 INFO  utils.LoggerManager - Pressing Enter
+2026-07-02 21:53:05 INFO  utils.LoggerManager - Popup closed
+2026-07-02 21:53:05 INFO  utils.LoggerManager - Selected Product : Alberto Solid Wood Bookshelf in Teak Finish
+2026-07-02 21:53:05 INFO  utils.LoggerManager - Selected Product : Alberto Solid Wood Bookshelf in Teak Finish
+2026-07-02 21:53:05 INFO  utils.LoggerManager - Switched to Product tab
+2026-07-02 21:53:06 INFO  utils.LoggerManager - Switched to Product tab
+2026-07-02 21:53:41 INFO  utils.LoggerManager - Browser closed successfully
+2026-07-02 21:53:41 INFO  utils.LoggerManager - ===== Test Finished =====
+2026-07-02 21:53:42 INFO  utils.LoggerManager - Browser closed successfully
+2026-07-02 21:53:42 INFO  utils.LoggerManager - ===== Test Finished =====
+2026-07-02 22:04:56 INFO  utils.LoggerManager - ===== Test Started =====
+2026-07-02 22:04:56 INFO  utils.LoggerManager - Initializing browser : chrome
+2026-07-02 22:05:02 INFO  utils.LoggerManager - Chrome browser launched
+2026-07-02 22:05:16 INFO  utils.LoggerManager - Navigated to: https://www.urbanladder.com/
+2026-07-02 22:05:16 INFO  utils.LoggerManager - Popup closed
+2026-07-02 22:05:16 INFO  utils.LoggerManager - Starting TC_10
+2026-07-02 22:05:17 INFO  utils.LoggerManager - Waiting for search box
+2026-07-02 22:05:17 INFO  utils.LoggerManager - Clicking search box
+2026-07-02 22:05:17 INFO  utils.LoggerManager - Typing Bookshelves
+2026-07-02 22:05:17 INFO  utils.LoggerManager - Pressing Enter
+2026-07-02 22:05:18 INFO  utils.LoggerManager - Selected Product : Alberto Solid Wood Bookshelf in Teak Finish
+2026-07-02 22:05:19 INFO  utils.LoggerManager - Switched to Product tab
+2026-07-02 22:05:55 INFO  utils.LoggerManager - Browser closed successfully
+2026-07-02 22:05:55 INFO  utils.LoggerManager - ===== Test Finished =====
+2026-07-02 22:18:03 INFO  utils.LoggerManager - ===== Test Started =====
+2026-07-02 22:18:03 INFO  utils.LoggerManager - Initializing browser : chrome
+2026-07-02 22:18:07 INFO  utils.LoggerManager - Chrome browser launched
+2026-07-02 22:18:17 INFO  utils.LoggerManager - Navigated to: https://www.urbanladder.com/
+2026-07-02 22:18:17 INFO  utils.LoggerManager - Starting TC_10
+2026-07-02 22:18:17 INFO  utils.LoggerManager - Waiting for search box
+2026-07-02 22:18:17 INFO  utils.LoggerManager - Clicking search box
+2026-07-02 22:18:17 INFO  utils.LoggerManager - Typing Bookshelves
+2026-07-02 22:18:18 INFO  utils.LoggerManager - Pressing Enter
+2026-07-02 22:18:18 INFO  utils.LoggerManager - Popup closed
+2026-07-02 22:18:19 INFO  utils.LoggerManager - Selected Product : Alberto Solid Wood Bookshelf in Teak Finish
+2026-07-02 22:18:19 INFO  utils.LoggerManager - Switched to Product tab
+2026-07-02 22:18:55 INFO  utils.LoggerManager - Browser closed successfully
+2026-07-02 22:18:55 INFO  utils.LoggerManager - ===== Test Finished =====
+2026-07-02 22:20:38 INFO  utils.LoggerManager - ===== Test Started =====
+2026-07-02 22:20:38 INFO  utils.LoggerManager - Initializing browser : chrome
+2026-07-02 22:20:42 INFO  utils.LoggerManager - Chrome browser launched
+2026-07-02 22:20:55 INFO  utils.LoggerManager - Navigated to: https://www.urbanladder.com/
+2026-07-02 22:20:55 INFO  utils.LoggerManager - Starting TC_10
+2026-07-02 22:20:55 INFO  utils.LoggerManager - Waiting for search box
+2026-07-02 22:20:55 INFO  utils.LoggerManager - Clicking search box
+2026-07-02 22:20:55 INFO  utils.LoggerManager - Typing Bookshelves
+2026-07-02 22:20:56 INFO  utils.LoggerManager - Pressing Enter
+2026-07-02 22:20:57 INFO  utils.LoggerManager - Product Image URL : https://cdn.swadeshonline.com/v2/patient-paper-41f385/swad-p/wrkr/products/pictures/item/free/450x0/PQc-XAw0n-a.jpg
+2026-07-02 22:21:02 INFO  utils.LoggerManager - Browser closed successfully
+2026-07-02 22:21:02 INFO  utils.LoggerManager - ===== Test Finished =====
+2026-07-02 22:21:12 INFO  utils.LoggerManager - ===== Test Started =====
+2026-07-02 22:21:12 INFO  utils.LoggerManager - Initializing browser : chrome
+2026-07-02 22:21:16 INFO  utils.LoggerManager - Chrome browser launched
+2026-07-02 22:21:24 INFO  utils.LoggerManager - Navigated to: https://www.urbanladder.com/
+2026-07-02 22:21:24 INFO  utils.LoggerManager - Starting TC_10
+2026-07-02 22:21:24 INFO  utils.LoggerManager - Waiting for search box
+2026-07-02 22:21:24 INFO  utils.LoggerManager - Clicking search box
+2026-07-02 22:21:24 INFO  utils.LoggerManager - Typing Bookshelves
+2026-07-02 22:21:25 INFO  utils.LoggerManager - Pressing Enter
+2026-07-02 22:21:25 INFO  utils.LoggerManager - Product Image URL : https://cdn.swadeshonline.com/v2/patient-paper-41f385/swad-p/wrkr/products/pictures/item/free/450x0/PQc-XAw0n-a.jpg
+2026-07-02 22:21:30 INFO  utils.LoggerManager - Browser closed successfully
+2026-07-02 22:21:30 INFO  utils.LoggerManager - ===== Test Finished =====
+2026-07-02 22:26:18 INFO  utils.LoggerManager - ===== Test Started =====
+2026-07-02 22:26:18 INFO  utils.LoggerManager - Initializing browser : chrome
+2026-07-02 22:26:22 INFO  utils.LoggerManager - Chrome browser launched
+2026-07-02 22:26:23 INFO  utils.LoggerManager - ===== Test Started =====
+2026-07-02 22:26:23 INFO  utils.LoggerManager - Initializing browser : chrome
+2026-07-02 22:26:29 INFO  utils.LoggerManager - Chrome browser launched
+2026-07-02 22:26:40 INFO  utils.LoggerManager - Navigated to: https://www.urbanladder.com/
+2026-07-02 22:26:40 INFO  utils.LoggerManager - Popup closed
+2026-07-02 22:26:40 INFO  utils.LoggerManager - Starting TC_10
+2026-07-02 22:26:40 INFO  utils.LoggerManager - Waiting for search box
+2026-07-02 22:26:41 INFO  utils.LoggerManager - Clicking search box
+2026-07-02 22:26:41 INFO  utils.LoggerManager - Typing Bookshelves
+2026-07-02 22:26:42 INFO  utils.LoggerManager - Pressing Enter
+2026-07-02 22:26:45 INFO  utils.LoggerManager - Product Image URL written successfully
+2026-07-02 22:26:45 INFO  utils.LoggerManager - Product Image URL : https://cdn.swadeshonline.com/v2/patient-paper-41f385/swad-p/wrkr/products/pictures/item/free/450x0/PQc-XAw0n-a.jpg
+2026-07-02 22:26:48 INFO  utils.LoggerManager - Navigated to: https://www.urbanladder.com/
+2026-07-02 22:26:48 INFO  utils.LoggerManager - Popup closed
+2026-07-02 22:26:48 INFO  utils.LoggerManager - Starting TC_10
+2026-07-02 22:26:48 INFO  utils.LoggerManager - Waiting for search box
+2026-07-02 22:26:48 INFO  utils.LoggerManager - Clicking search box
+2026-07-02 22:26:48 INFO  utils.LoggerManager - Typing Bookshelves
+2026-07-02 22:26:48 INFO  utils.LoggerManager - Pressing Enter
+2026-07-02 22:26:50 INFO  utils.LoggerManager - Browser closed successfully
+2026-07-02 22:26:50 INFO  utils.LoggerManager - ===== Test Finished =====
+2026-07-02 22:26:51 INFO  utils.LoggerManager - Product Image URL written successfully
+2026-07-02 22:26:51 INFO  utils.LoggerManager - Product Image URL : https://cdn.swadeshonline.com/v2/patient-paper-41f385/swad-p/wrkr/products/pictures/item/free/450x0/PQc-XAw0n-a.jpg
+2026-07-02 22:26:57 INFO  utils.LoggerManager - Browser closed successfully
+2026-07-02 22:26:57 INFO  utils.LoggerManager - ===== Test Finished =====
+2026-07-02 22:30:38 INFO  utils.LoggerManager - ===== Test Started =====
+2026-07-02 22:30:38 INFO  utils.LoggerManager - Initializing browser : chrome
+2026-07-02 22:30:42 INFO  utils.LoggerManager - Chrome browser launched
+2026-07-02 22:30:59 INFO  utils.LoggerManager - Navigated to: https://www.urbanladder.com/
+2026-07-02 22:30:59 INFO  utils.LoggerManager - Popup closed
+2026-07-02 22:30:59 INFO  utils.LoggerManager - Starting TC_10
+2026-07-02 22:30:59 INFO  utils.LoggerManager - Waiting for search box
+2026-07-02 22:31:00 INFO  utils.LoggerManager - Clicking search box
+2026-07-02 22:31:00 INFO  utils.LoggerManager - Typing Bookshelves
+2026-07-02 22:31:00 INFO  utils.LoggerManager - Pressing Enter
+2026-07-02 22:31:03 ERROR utils.LoggerManager - Excel writing failed : Cannot invoke "org.apache.poi.ss.usermodel.Sheet.getLastRowNum()" because "sheet" is null
+2026-07-02 22:31:03 INFO  utils.LoggerManager - Product Image URL : https://cdn.swadeshonline.com/v2/patient-paper-41f385/swad-p/wrkr/products/pictures/item/free/450x0/PQc-XAw0n-a.jpg
+2026-07-02 22:31:08 INFO  utils.LoggerManager - Browser closed successfully
+2026-07-02 22:31:08 INFO  utils.LoggerManager - ===== Test Finished =====
+2026-07-02 22:34:47 INFO  utils.LoggerManager - ===== Test Started =====
+2026-07-02 22:34:47 INFO  utils.LoggerManager - Initializing browser : chrome
+2026-07-02 22:34:53 INFO  utils.LoggerManager - Chrome browser launched
+2026-07-02 22:35:05 INFO  utils.LoggerManager - Navigated to: https://www.urbanladder.com/
+2026-07-02 22:35:05 INFO  utils.LoggerManager - Popup closed
+2026-07-02 22:35:05 INFO  utils.LoggerManager - Starting TC_10
+2026-07-02 22:35:05 INFO  utils.LoggerManager - Waiting for search box
+2026-07-02 22:35:06 INFO  utils.LoggerManager - Clicking search box
+2026-07-02 22:35:06 INFO  utils.LoggerManager - Typing Bookshelves
+2026-07-02 22:35:06 INFO  utils.LoggerManager - Pressing Enter
+2026-07-02 22:35:07 INFO  utils.LoggerManager - Product Image URL : https://cdn.swadeshonline.com/v2/patient-paper-41f385/swad-p/wrkr/products/pictures/item/free/450x0/PQc-XAw0n-a.jpg
+2026-07-02 22:35:11 INFO  utils.LoggerManager - Browser closed successfully
+2026-07-02 22:35:11 INFO  utils.LoggerManager - ===== Test Finished =====
+2026-07-02 22:35:20 INFO  utils.LoggerManager - ===== Test Started =====
+2026-07-02 22:35:20 INFO  utils.LoggerManager - Initializing browser : chrome
+2026-07-02 22:35:24 INFO  utils.LoggerManager - Chrome browser launched
+2026-07-02 22:35:35 INFO  utils.LoggerManager - Navigated to: https://www.urbanladder.com/
+2026-07-02 22:35:36 INFO  utils.LoggerManager - Popup closed
+2026-07-02 22:35:36 INFO  utils.LoggerManager - Starting TC_10
+2026-07-02 22:35:36 INFO  utils.LoggerManager - Waiting for search box
+2026-07-02 22:35:36 INFO  utils.LoggerManager - Clicking search box
+2026-07-02 22:35:36 INFO  utils.LoggerManager - Typing Bookshelves
+2026-07-02 22:35:36 INFO  utils.LoggerManager - Pressing Enter
+2026-07-02 22:35:37 INFO  utils.LoggerManager - Product Image URL : https://cdn.swadeshonline.com/v2/patient-paper-41f385/swad-p/wrkr/products/pictures/item/free/450x0/PQc-XAw0n-a.jpg
+2026-07-02 22:35:41 INFO  utils.LoggerManager - Browser closed successfully
+2026-07-02 22:35:41 INFO  utils.LoggerManager - ===== Test Finished =====
+2026-07-02 22:37:34 INFO  utils.LoggerManager - ===== Test Started =====
+2026-07-02 22:37:34 INFO  utils.LoggerManager - Initializing browser : chrome
+2026-07-02 22:37:37 INFO  utils.LoggerManager - Chrome browser launched
+2026-07-02 22:37:48 INFO  utils.LoggerManager - Navigated to: https://www.urbanladder.com/
+2026-07-02 22:37:48 INFO  utils.LoggerManager - Starting TC_10
+2026-07-02 22:37:48 INFO  utils.LoggerManager - Waiting for search box
+2026-07-02 22:37:48 INFO  utils.LoggerManager - Clicking search box
+2026-07-02 22:37:48 INFO  utils.LoggerManager - Typing Bookshelves
+2026-07-02 22:37:49 INFO  utils.LoggerManager - Pressing Enter
+2026-07-02 22:37:49 INFO  utils.LoggerManager - Product Image URL : https://cdn.swadeshonline.com/v2/patient-paper-41f385/swad-p/wrkr/products/pictures/item/free/450x0/PQc-XAw0n-a.jpg
+2026-07-02 22:37:54 INFO  utils.LoggerManager - Browser closed successfully
+2026-07-02 22:37:54 INFO  utils.LoggerManager - ===== Test Finished =====
+2026-07-02 22:43:22 INFO  utils.LoggerManager - ===== Test Started =====
+2026-07-02 22:43:22 INFO  utils.LoggerManager - Initializing browser : chrome
+2026-07-02 22:43:24 INFO  utils.LoggerManager - Chrome browser launched
+2026-07-02 22:43:34 INFO  utils.LoggerManager - Navigated to: https://www.urbanladder.com/
+2026-07-02 22:43:34 INFO  utils.LoggerManager - Starting TC_10
+2026-07-02 22:43:34 INFO  utils.LoggerManager - Waiting for search box
+2026-07-02 22:43:35 INFO  utils.LoggerManager - Clicking search box
+2026-07-02 22:43:35 INFO  utils.LoggerManager - Typing Bookshelves
+2026-07-02 22:43:35 INFO  utils.LoggerManager - Pressing Enter
+2026-07-02 22:43:35 INFO  utils.LoggerManager - Product Image URL : https://cdn.swadeshonline.com/v2/patient-paper-41f385/swad-p/wrkr/products/pictures/item/free/450x0/PQc-XAw0n-a.jpg
+2026-07-02 22:43:39 INFO  utils.LoggerManager - Browser closed successfully
+2026-07-02 22:43:39 INFO  utils.LoggerManager - ===== Test Finished =====

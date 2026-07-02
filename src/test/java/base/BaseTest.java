@@ -21,18 +21,10 @@ public class BaseTest {
     }
 
     @BeforeMethod
-<<<<<<< HEAD
-    public void setUp(@Optional("chrome") String browser, Method method) {
-        LoggerManager.info("===== Test Started =====");
-        //  Create report entry
-        ExtentReportManager.createTest(method.getName());
-        driver = DriverFactory.initDriver(browser);
-=======
     public void setUp(Method method) {
         LoggerManager.info("===== Test Started =====");
         ExtentReportManager.createTest(method.getName());
         driver = DriverFactory.initDriver();
->>>>>>> main
         String url = ConfigReader.getProperty("url");
         driver.get(url);
         LoggerManager.info("Navigated to: " + url);
@@ -51,6 +43,7 @@ public class BaseTest {
         DriverFactory.quitDriver();
         LoggerManager.info("===== Test Finished =====");
     }
+
     @AfterSuite
     public void flushReport() {
         ExtentReportManager.getReportInstance().flush();
