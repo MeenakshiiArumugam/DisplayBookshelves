@@ -1704,3 +1704,158 @@ Session ID: 43aab6f72df597b32b09898e62397064
 2026-07-03 10:26:36 INFO  utils.LoggerManager - Product count from UI: 8
 2026-07-03 10:26:42 INFO  utils.LoggerManager - Browser closed successfully
 2026-07-03 10:26:42 INFO  utils.LoggerManager - ===== Test Finished =====
+2026-07-03 14:36:56 INFO  utils.LoggerManager - ===== Test Started =====
+2026-07-03 14:36:56 INFO  utils.LoggerManager - Initializing browser : chrome
+2026-07-03 14:37:04 INFO  utils.LoggerManager - Chrome browser launched
+2026-07-03 14:37:33 INFO  utils.LoggerManager - Navigated to: https://www.urbanladder.com/
+2026-07-03 14:37:33 INFO  utils.LoggerManager - Starting TC_16 - New Arrivals Hover
+2026-07-03 14:37:33 INFO  utils.LoggerManager - Popup closed
+2026-07-03 14:37:33 INFO  utils.LoggerManager - Waiting for New Arrivals menu
+2026-07-03 14:37:33 INFO  utils.LoggerManager - Hovering on New Arrivals menu
+2026-07-03 14:37:35 INFO  utils.LoggerManager - Hover action completed
+2026-07-03 14:37:35 INFO  utils.LoggerManager - Validating New Arrivals dropdown visibility
+2026-07-03 14:38:10 INFO  utils.LoggerManager - Browser closed successfully
+2026-07-03 14:38:10 INFO  utils.LoggerManager - ===== Test Finished =====
+2026-07-03 14:38:10 INFO  utils.LoggerManager - ===== Test Started =====
+2026-07-03 14:38:10 INFO  utils.LoggerManager - Initializing browser : chrome
+2026-07-03 14:38:13 INFO  utils.LoggerManager - Chrome browser launched
+2026-07-03 14:38:32 INFO  utils.LoggerManager - Navigated to: https://www.urbanladder.com/
+2026-07-03 14:38:32 INFO  utils.LoggerManager - Starting TC_17 - Capture Terra Collection Data
+2026-07-03 14:38:32 INFO  utils.LoggerManager - Popup closed
+2026-07-03 14:38:32 INFO  utils.LoggerManager - Waiting for New Arrivals menu
+2026-07-03 14:38:32 INFO  utils.LoggerManager - Hovering on New Arrivals menu
+2026-07-03 14:38:34 INFO  utils.LoggerManager - Hover action completed
+2026-07-03 14:38:34 INFO  utils.LoggerManager - Validating New Arrivals dropdown visibility
+2026-07-03 14:39:34 INFO  utils.LoggerManager - ===== Test Started =====
+2026-07-03 14:39:34 INFO  utils.LoggerManager - Initializing browser : chrome
+2026-07-03 14:39:38 INFO  utils.LoggerManager - Chrome browser launched
+2026-07-03 14:40:01 INFO  utils.LoggerManager - Navigated to: https://www.urbanladder.com/
+2026-07-03 14:40:01 INFO  utils.LoggerManager - Starting TC_16 - New Arrivals Hover
+2026-07-03 14:40:01 INFO  utils.LoggerManager - Popup closed
+2026-07-03 14:40:01 INFO  utils.LoggerManager - Waiting for New Arrivals menu
+2026-07-03 14:40:01 INFO  utils.LoggerManager - Hovering on New Arrivals menu
+2026-07-03 14:40:03 INFO  utils.LoggerManager - Hover action completed
+2026-07-03 14:40:03 INFO  utils.LoggerManager - Validating New Arrivals dropdown visibility
+2026-07-03 14:40:03 INFO  utils.LoggerManager - Dropdown container is visible
+2026-07-03 14:40:03 INFO  utils.LoggerManager - Terra Collection is visible inside dropdown
+2026-07-03 14:40:04 INFO  utils.LoggerManager - Final dropdown validation result: true
+2026-07-03 14:40:08 INFO  utils.LoggerManager - Browser closed successfully
+2026-07-03 14:40:08 INFO  utils.LoggerManager - ===== Test Finished =====
+2026-07-03 14:40:08 INFO  utils.LoggerManager - ===== Test Started =====
+2026-07-03 14:40:08 INFO  utils.LoggerManager - Initializing browser : chrome
+2026-07-03 14:40:11 INFO  utils.LoggerManager - Chrome browser launched
+2026-07-03 14:40:34 INFO  utils.LoggerManager - Navigated to: https://www.urbanladder.com/
+2026-07-03 14:40:34 INFO  utils.LoggerManager - Starting TC_17 - Capture Terra Collection Data
+2026-07-03 14:40:34 INFO  utils.LoggerManager - Popup closed
+2026-07-03 14:40:34 INFO  utils.LoggerManager - Waiting for New Arrivals menu
+2026-07-03 14:40:34 INFO  utils.LoggerManager - Hovering on New Arrivals menu
+2026-07-03 14:40:36 INFO  utils.LoggerManager - Hover action completed
+2026-07-03 14:40:36 INFO  utils.LoggerManager - Validating New Arrivals dropdown visibility
+2026-07-03 14:40:36 INFO  utils.LoggerManager - Dropdown container is visible
+2026-07-03 14:40:37 INFO  utils.LoggerManager - Terra Collection is visible inside dropdown
+2026-07-03 14:40:37 INFO  utils.LoggerManager - Final dropdown validation result: true
+2026-07-03 14:40:37 INFO  utils.LoggerManager - Capturing Terra Collection submenu items
+2026-07-03 14:40:37 INFO  utils.LoggerManager - Found item: Discover Terra
+2026-07-03 14:40:37 INFO  utils.LoggerManager - Found item: Explore Full Collection
+2026-07-03 14:40:37 INFO  utils.LoggerManager - Found item: Living Room
+2026-07-03 14:40:37 INFO  utils.LoggerManager - Found item: Bedroom
+2026-07-03 14:40:37 INFO  utils.LoggerManager - Found item: Dining Room
+2026-07-03 14:40:37 INFO  utils.LoggerManager - Total items captured: 5
+2026-07-03 14:40:39 INFO  utils.LoggerManager - Terra data written successfully
+2026-07-03 14:40:44 INFO  utils.LoggerManager - Browser closed successfully
+2026-07-03 14:40:44 INFO  utils.LoggerManager - ===== Test Finished =====
+2026-07-03 14:40:44 INFO  utils.LoggerManager - ===== Test Started =====
+2026-07-03 14:40:44 INFO  utils.LoggerManager - Initializing browser : chrome
+2026-07-03 14:40:47 INFO  utils.LoggerManager - Chrome browser launched
+2026-07-03 14:41:12 INFO  utils.LoggerManager - Navigated to: https://www.urbanladder.com/
+2026-07-03 14:41:12 INFO  utils.LoggerManager - Starting TC_18 - Terra Collection Navigation
+2026-07-03 14:41:12 INFO  utils.LoggerManager - Popup closed
+2026-07-03 14:41:12 INFO  utils.LoggerManager - Waiting for New Arrivals menu
+2026-07-03 14:41:12 INFO  utils.LoggerManager - Hovering on New Arrivals menu
+2026-07-03 14:41:14 INFO  utils.LoggerManager - Hover action completed
+2026-07-03 14:41:14 INFO  utils.LoggerManager - Waiting for Terra Collection option
+2026-07-03 14:41:14 INFO  utils.LoggerManager - Clicking Terra Collection
+2026-07-03 14:41:24 INFO  utils.LoggerManager - Popup closed
+2026-07-03 14:41:24 INFO  utils.LoggerManager - Validating Terra Collection page
+2026-07-03 14:41:24 INFO  utils.LoggerManager - Current URL: https://www.urbanladder.com/page/new-terra-collection
+2026-07-03 14:41:24 INFO  utils.LoggerManager - Scrolling to Discover all Terra products link
+2026-07-03 14:41:24 INFO  utils.LoggerManager - Clicking Discover all Terra products
+2026-07-03 14:41:28 INFO  utils.LoggerManager - Validating Terra Collection products page
+2026-07-03 14:41:28 INFO  utils.LoggerManager - Current URL: https://www.urbanladder.com/collection/terra-collection
+2026-07-03 14:41:34 INFO  utils.LoggerManager - Browser closed successfully
+2026-07-03 14:41:34 INFO  utils.LoggerManager - ===== Test Finished =====
+2026-07-03 14:41:34 INFO  utils.LoggerManager - ===== Test Started =====
+2026-07-03 14:41:34 INFO  utils.LoggerManager - Initializing browser : chrome
+2026-07-03 14:41:37 INFO  utils.LoggerManager - Chrome browser launched
+2026-07-03 14:41:58 INFO  utils.LoggerManager - Navigated to: https://www.urbanladder.com/
+2026-07-03 14:41:58 INFO  utils.LoggerManager - Starting TC_19 - Verify Terra Collection Price High To Low Sorting
+2026-07-03 14:41:58 INFO  utils.LoggerManager - Popup closed
+2026-07-03 14:41:58 INFO  utils.LoggerManager - Waiting for New Arrivals menu
+2026-07-03 14:41:58 INFO  utils.LoggerManager - Hovering on New Arrivals menu
+2026-07-03 14:42:01 INFO  utils.LoggerManager - Hover action completed
+2026-07-03 14:42:01 INFO  utils.LoggerManager - Waiting for Terra Collection option
+2026-07-03 14:42:01 INFO  utils.LoggerManager - Clicking Terra Collection
+2026-07-03 14:42:07 INFO  utils.LoggerManager - Validating Terra Collection page
+2026-07-03 14:42:07 INFO  utils.LoggerManager - Current URL: https://www.urbanladder.com/page/new-terra-collection
+2026-07-03 14:42:07 INFO  utils.LoggerManager - Scrolling to Discover all Terra products link
+2026-07-03 14:42:07 INFO  utils.LoggerManager - Clicking Discover all Terra products
+2026-07-03 14:42:09 INFO  utils.LoggerManager - Validating Terra Collection products page
+2026-07-03 14:42:09 INFO  utils.LoggerManager - Current URL: https://www.urbanladder.com/collection/terra-collection
+2026-07-03 14:42:09 INFO  utils.LoggerManager - Opening All Filters
+2026-07-03 14:42:10 INFO  utils.LoggerManager - Expanding Sort section
+2026-07-03 14:42:10 INFO  utils.LoggerManager - Selecting Price High to Low
+2026-07-03 14:42:10 INFO  utils.LoggerManager - Closing Filter and Sort sidebar
+2026-07-03 14:42:16 INFO  utils.LoggerManager - Browser closed successfully
+2026-07-03 14:42:16 INFO  utils.LoggerManager - ===== Test Finished =====
+2026-07-03 14:42:16 INFO  utils.LoggerManager - ===== Test Started =====
+2026-07-03 14:42:16 INFO  utils.LoggerManager - Initializing browser : chrome
+2026-07-03 14:42:19 INFO  utils.LoggerManager - Chrome browser launched
+2026-07-03 14:42:42 INFO  utils.LoggerManager - Navigated to: https://www.urbanladder.com/
+2026-07-03 14:42:42 INFO  utils.LoggerManager - Starting TC_20 - Terra Bedroom Navigation
+2026-07-03 14:42:42 INFO  utils.LoggerManager - Popup closed
+2026-07-03 14:42:42 INFO  utils.LoggerManager - Waiting for New Arrivals menu
+2026-07-03 14:42:42 INFO  utils.LoggerManager - Hovering on New Arrivals menu
+2026-07-03 14:42:44 INFO  utils.LoggerManager - Hover action completed
+2026-07-03 14:42:44 INFO  utils.LoggerManager - Validating New Arrivals dropdown visibility
+2026-07-03 14:42:44 INFO  utils.LoggerManager - Dropdown container is visible
+2026-07-03 14:42:44 INFO  utils.LoggerManager - Terra Collection is visible inside dropdown
+2026-07-03 14:42:45 INFO  utils.LoggerManager - Final dropdown validation result: true
+2026-07-03 14:42:45 INFO  utils.LoggerManager - Waiting for Terra Bedroom option
+2026-07-03 14:42:45 INFO  utils.LoggerManager - Clicking Terra Collection -> Bedroom
+2026-07-03 14:42:47 INFO  utils.LoggerManager - Validating navigation to Terra Bedroom page
+2026-07-03 14:42:47 INFO  utils.LoggerManager - Current URL: https://www.urbanladder.com/collection/terra-bedroom-collection
+2026-07-03 14:42:52 INFO  utils.LoggerManager - Browser closed successfully
+2026-07-03 14:42:52 INFO  utils.LoggerManager - ===== Test Finished =====
+2026-07-03 14:42:52 INFO  utils.LoggerManager - ===== Test Started =====
+2026-07-03 14:42:52 INFO  utils.LoggerManager - Initializing browser : chrome
+2026-07-03 14:42:55 INFO  utils.LoggerManager - Chrome browser launched
+2026-07-03 14:43:25 INFO  utils.LoggerManager - Navigated to: https://www.urbanladder.com/
+2026-07-03 14:43:25 INFO  utils.LoggerManager - Starting TC_21 - Filters Product Validation
+2026-07-03 14:43:25 INFO  utils.LoggerManager - Popup closed
+2026-07-03 14:43:25 INFO  utils.LoggerManager - Waiting for New Arrivals menu
+2026-07-03 14:43:25 INFO  utils.LoggerManager - Hovering on New Arrivals menu
+2026-07-03 14:43:27 INFO  utils.LoggerManager - Hover action completed
+2026-07-03 14:43:27 INFO  utils.LoggerManager - Validating New Arrivals dropdown visibility
+2026-07-03 14:43:27 INFO  utils.LoggerManager - Dropdown container is visible
+2026-07-03 14:43:27 INFO  utils.LoggerManager - Terra Collection is visible inside dropdown
+2026-07-03 14:43:27 INFO  utils.LoggerManager - Final dropdown validation result: true
+2026-07-03 14:43:27 INFO  utils.LoggerManager - Waiting for Terra Bedroom option
+2026-07-03 14:43:27 INFO  utils.LoggerManager - Clicking Terra Collection -> Bedroom
+2026-07-03 14:43:29 INFO  utils.LoggerManager - Validating navigation to Terra Bedroom page
+2026-07-03 14:43:29 INFO  utils.LoggerManager - Current URL: https://www.urbanladder.com/collection/terra-bedroom-collection
+2026-07-03 14:43:29 INFO  utils.LoggerManager - Clicking All Filters
+2026-07-03 14:43:30 INFO  utils.LoggerManager - Expanding Primary Material
+2026-07-03 14:43:30 INFO  utils.LoggerManager - Selecting Solid Wood
+2026-07-03 14:43:30 INFO  utils.LoggerManager - Expanding Bed Size
+2026-07-03 14:43:31 INFO  utils.LoggerManager - Selecting King
+2026-07-03 14:43:31 INFO  utils.LoggerManager - Expanding Storage Type
+2026-07-03 14:43:31 INFO  utils.LoggerManager - Selecting Non Storage
+2026-07-03 14:43:31 INFO  utils.LoggerManager - Applying filters
+2026-07-03 14:43:32 INFO  utils.LoggerManager - Waiting for product list
+2026-07-03 14:43:33 INFO  utils.LoggerManager - Product list size: 8
+2026-07-03 14:43:33 INFO  utils.LoggerManager - Product list size: 8
+2026-07-03 14:43:33 INFO  utils.LoggerManager - Waiting for product count
+2026-07-03 14:43:33 INFO  utils.LoggerManager - Product count text: 8 Products
+2026-07-03 14:43:33 INFO  utils.LoggerManager - Product count from UI: 8
+2026-07-03 14:43:38 INFO  utils.LoggerManager - Browser closed successfully
+2026-07-03 14:43:38 INFO  utils.LoggerManager - ===== Test Finished =====

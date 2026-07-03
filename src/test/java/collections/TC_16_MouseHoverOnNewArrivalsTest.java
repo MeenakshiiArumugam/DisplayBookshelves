@@ -9,7 +9,6 @@ import utils.ExtentReportManager;
 import utils.LoggerManager;
 
 public class TC_16_MouseHoverOnNewArrivalsTest extends BaseTest {
-
     @Test
     public void verifyNewArrivalsHover() {
         LoggerManager.info("Starting TC_16 - New Arrivals Hover");

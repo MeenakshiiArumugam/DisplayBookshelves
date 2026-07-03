@@ -10,7 +10,6 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import utils.ExtentReportManager;
 import utils.LoggerManager;
 import utils.PopupHandler;
-
 import java.time.Duration;
 
 public class TerraCollectionPage {

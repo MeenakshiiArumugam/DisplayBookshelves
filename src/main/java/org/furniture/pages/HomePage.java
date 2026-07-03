@@ -25,7 +25,7 @@ public class HomePage {
     }
     @FindBy(xpath = "//span[normalize-space()='New Arrivals']")
     WebElement newArrivalsMenu;
-    @FindBy(id = "category-menu-0")
+    @FindBy(xpath = "//div[contains(@id,'category-menu')]")
     WebElement newArrivalsDropdown;
     @FindBy(xpath = "//a[text()='Terra Collection']")
     WebElement terraCollection;
