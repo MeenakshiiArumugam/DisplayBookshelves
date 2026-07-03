@@ -14,7 +14,7 @@ public class ScreenshotUtils {
     public static void captureElementScreenshot(WebElement element, String fileName) throws IOException {
         File src = element.getScreenshotAs(OutputType.FILE);
         FileHandler.copy(src, new File(System.getProperty("user.dir")
-                + "/screenshots/" + fileName + ".png")
+                        + "/screenshots/" + fileName + ".png")
         );
     }
 
@@ -22,7 +22,7 @@ public class ScreenshotUtils {
             throws IOException {
         File src = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
         FileHandler.copy(src, new File(System.getProperty("user.dir")
-                + "/screenshots/" + fileName + ".png")
+                        + "/screenshots/" + fileName + ".png")
         );
     }
 }

@@ -79,7 +79,7 @@ public class TerraCollectionPage {
         PopupHandler.closePopupIfPresent(driver);
         LoggerManager.info("Opening All Filters");
         wait.until(
-                ExpectedConditions.elementToBeClickable(allFiltersBtn))
+                        ExpectedConditions.elementToBeClickable(allFiltersBtn))
                 .click();
     }
 
@@ -88,7 +88,7 @@ public class TerraCollectionPage {
         PopupHandler.closePopupIfPresent(driver);
         LoggerManager.info("Expanding Sort section");
         wait.until(
-                ExpectedConditions.elementToBeClickable(sortSection))
+                        ExpectedConditions.elementToBeClickable(sortSection))
                 .click();
     }
 
@@ -97,7 +97,7 @@ public class TerraCollectionPage {
         PopupHandler.closePopupIfPresent(driver);
         LoggerManager.info("Selecting Price High to Low");
         wait.until(
-                ExpectedConditions.elementToBeClickable(priceHighToLowOption))
+                        ExpectedConditions.elementToBeClickable(priceHighToLowOption))
                 .click();
     }
 

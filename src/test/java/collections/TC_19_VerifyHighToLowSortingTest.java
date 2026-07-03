@@ -5,9 +5,11 @@ import org.furniture.pages.HomePage;
 import org.furniture.pages.TerraCollectionPage;
 import org.testng.Assert;
 import org.testng.annotations.Test;
+
 import utils.ExtentReportManager;
 import utils.LoggerManager;
 import utils.ScreenshotUtils;
+
 import java.io.IOException;
 
 public class TC_19_VerifyHighToLowSortingTest extends BaseTest {
