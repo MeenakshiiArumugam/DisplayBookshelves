@@ -6,6 +6,8 @@ import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.*;
 import utils.LoggerManager;
 import utils.ExtentReportManager;
+import utils.PopupHandler;
+
 import java.time.Duration;
 import java.util.List;
 
@@ -42,6 +44,7 @@ public class TerraBedroomPage {
 
     // Apply filters
     public void applyFiltersUsingAllFilters() {
+        PopupHandler.closePopupIfPresent(driver);
         LoggerManager.info("Clicking All Filters");
         wait.until(ExpectedConditions.elementToBeClickable(allFiltersBtn)).click();
         LoggerManager.info("Expanding Primary Material");
@@ -63,6 +66,7 @@ public class TerraBedroomPage {
 
     // Get product count from UI text
     public String getProductCountText() {
+        PopupHandler.closePopupIfPresent(driver);
         LoggerManager.info("Waiting for product count");
         wait.until(ExpectedConditions.visibilityOf(productCountText));
         String text = productCountText.getText();
@@ -73,6 +77,7 @@ public class TerraBedroomPage {
 
     // Get product list size (DOM validation)
     public int getProductListSize() {
+        PopupHandler.closePopupIfPresent(driver);
         LoggerManager.info("Waiting for product list");
         wait.until(ExpectedConditions.visibilityOfAllElements(productList));
         int size = productList.size();

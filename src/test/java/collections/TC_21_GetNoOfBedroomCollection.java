@@ -8,11 +8,14 @@ import org.testng.annotations.Test;
 
 import utils.ExtentReportManager;
 import utils.LoggerManager;
+import utils.ScreenshotUtils;
 
-public class TC_20_GetNoOfBedroomCollection extends BaseTest {
+import java.io.IOException;
+
+public class TC_21_GetNoOfBedroomCollection extends BaseTest {
     @Test
-    public void verifyFiltersProductValidation() {
-        LoggerManager.info("Starting TC - Filters Product Validation");
+    public void verifyFiltersProductValidation() throws IOException {
+        LoggerManager.info("Starting TC_21 - Filters Product Validation");
         ExtentReportManager.getTest().info("Test started");
         HomePage homePage = new HomePage(driver);
         homePage.hoverOnNewArrivals();
@@ -31,6 +34,7 @@ public class TC_20_GetNoOfBedroomCollection extends BaseTest {
         LoggerManager.info("Product count from UI: " + uiCount);
         ExtentReportManager.getTest().info("Product count from UI: " + uiCount);
         Assert.assertEquals(productCount, uiCount, "Mismatch between UI product count and actual product list");
+        ScreenshotUtils.capturePageScreenshot(driver, "TC_21_GetNoOfBedroomCollection");
         ExtentReportManager.getTest().pass("Validation successful. Product count: " + productCount);
     }
 }

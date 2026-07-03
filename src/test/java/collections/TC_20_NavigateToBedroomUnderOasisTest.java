@@ -8,11 +8,11 @@ import org.testng.annotations.Test;
 import utils.ExtentReportManager;
 import utils.LoggerManager;
 
-public class TC_19_NavigateToBedroomUnderOasisTest extends BaseTest{
+public class TC_20_NavigateToBedroomUnderOasisTest extends BaseTest{
     @Test
     public void verifyTerraBedroomNavigation() {
 
-        LoggerManager.info("Starting TC - Terra Bedroom Navigation");
+        LoggerManager.info("Starting TC_20 - Terra Bedroom Navigation");
         ExtentReportManager.getTest().info("Test started");
         HomePage homePage = new HomePage(driver);
         homePage.hoverOnNewArrivals();

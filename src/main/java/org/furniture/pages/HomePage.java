@@ -53,6 +53,7 @@ public class HomePage {
 
     // Check dropdown is displayed
     public boolean isNewArrivalsDropdownDisplayed() {
+        PopupHandler.closePopupIfPresent(driver);
         LoggerManager.info("Validating New Arrivals dropdown visibility");
         ExtentReportManager.getTest().info("Checking dropdown visibility");
         wait.until(ExpectedConditions.visibilityOf(newArrivalsDropdown));
@@ -69,6 +70,7 @@ public class HomePage {
 
     // Get all sub-menu of Terra Collection
     public List<String> getTerraCollectionItems() {
+        PopupHandler.closePopupIfPresent(driver);
         List<String> itemsText = new ArrayList<>();
         LoggerManager.info("Capturing Terra Collection submenu items");
         ExtentReportManager.getTest().info("Fetching Terra Collection items");
@@ -82,6 +84,7 @@ public class HomePage {
     }
 
     public void clickTerraCollection() {
+        PopupHandler.closePopupIfPresent(driver);
         LoggerManager.info("Waiting for Terra Collection option");
         wait.until(ExpectedConditions.visibilityOf(terraCollection));
         LoggerManager.info("Clicking Terra Collection");
@@ -90,6 +93,7 @@ public class HomePage {
     }
 
     public boolean isTerraCollectionPageDisplayed() {
+        PopupHandler.closePopupIfPresent(driver);
         LoggerManager.info("Validating Terra Collection page");
         wait.until(ExpectedConditions.urlContains("new-terra-collection"));
         String currentUrl = driver.getCurrentUrl();
@@ -99,6 +103,7 @@ public class HomePage {
 
     // Click Terra Bedroom
     public void clickTerraBedroom() {
+        PopupHandler.closePopupIfPresent(driver);
         LoggerManager.info("Waiting for Terra Bedroom option");
         wait.until(ExpectedConditions.visibilityOf(terraBedroom));
         LoggerManager.info("Clicking Terra Collection -> Bedroom");
@@ -108,6 +113,7 @@ public class HomePage {
 
     // Validate Terra Bedroom page navigation
     public boolean isTerraBedroomPageDisplayed() {
+        PopupHandler.closePopupIfPresent(driver);
         LoggerManager.info("Validating navigation to Terra Bedroom page");
         wait.until(ExpectedConditions.urlContains("terra-bedroom-collection"));
         String currentUrl = driver.getCurrentUrl();

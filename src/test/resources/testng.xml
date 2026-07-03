@@ -15,13 +15,18 @@
             <class name="studychairs.TC_11_SearchStudyChairsTest"/>
             <class name="collections.TC_16_MouseHoverOnNewArrivalsTest"/>
             <class name="collections.TC_17_ExtractSubMenuItemsTest"/>
-            <class name="collections.TC_19_NavigateToBedroomUnderOasisTest"/>
-            <class name="collections.TC_20_GetNoOfBedroomCollection"/>
+            <class name="collections.TC_20_NavigateToBedroomUnderOasisTest"/>
+            <class name="collections.TC_21_GetNoOfBedroomCollection"/>
             <class name="giftcards.TC_21_NavigateToGiftCardsTest"/>
             <class name="giftcards.TC_22_SelectAnniversaryGiftCardTest"/>
             <class name="giftcards.TC_23_FillGiftCardFormTest"/>
             <class name="giftcards.TC_24_CaptureInvalidEmailValidationTest"/> -->
+            <class name="collections.TC_16_MouseHoverOnNewArrivalsTest"/>
+            <class name="collections.TC_17_ExtractSubMenuItemsTest"/>
             <class name="collections.TC_18_TerraCollectionNavigationTest"/>
+            <class name="collections.TC_19_VerifyHighToLowSortingTest"/>
+            <class name="collections.TC_20_NavigateToBedroomUnderOasisTest"/>
+            <class name="collections.TC_21_GetNoOfBedroomCollection"/>
         </classes>
     </test>
 
