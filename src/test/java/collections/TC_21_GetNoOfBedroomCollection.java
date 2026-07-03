@@ -9,7 +9,7 @@ import org.testng.annotations.Test;
 import utils.ExtentReportManager;
 import utils.LoggerManager;
 
-public class TC_20_GetNoOfBedroomCollection extends BaseTest {
+public class TC_21_GetNoOfBedroomCollection extends BaseTest {
     @Test
     public void verifyFiltersProductValidation() {
         LoggerManager.info("Starting TC - Filters Product Validation");
