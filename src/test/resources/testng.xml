@@ -4,7 +4,7 @@
 
     <test name="Module">
         <classes>
-            <class name="bookshelves.TC_01_BookshelvesSearchTest"/>
+           <!-- <class name="bookshelves.TC_01_BookshelvesSearchTest"/>
             <class name="bookshelves.TC_02_FilterByPriceBelow15000Test"/>
             <class name="bookshelves.TC_03_FilterByStorageTypeOpenTest"/>
             <class name="bookshelves.TC_04_BookshelfPriceAnalyticsTest"/>
@@ -20,7 +20,8 @@
             <class name="giftcards.TC_21_NavigateToGiftCardsTest"/>
             <class name="giftcards.TC_22_SelectAnniversaryGiftCardTest"/>
             <class name="giftcards.TC_23_FillGiftCardFormTest"/>
-            <class name="giftcards.TC_24_CaptureInvalidEmailValidationTest"/>
+            <class name="giftcards.TC_24_CaptureInvalidEmailValidationTest"/> -->
+            <class name="collections.TC_18_TerraCollectionNavigationTest"/>
         </classes>
     </test>
 

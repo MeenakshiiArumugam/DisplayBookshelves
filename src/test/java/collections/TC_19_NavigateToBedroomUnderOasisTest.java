@@ -1,6 +1,5 @@
 package collections;
 
-
 import base.BaseTest;
 import org.furniture.pages.HomePage;
 import org.testng.Assert;

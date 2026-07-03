@@ -8,6 +8,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import utils.LoggerManager;
 import utils.ExtentReportManager;
+import utils.PopupHandler;
 
 import java.time.Duration;
 import java.util.ArrayList;
@@ -37,6 +38,7 @@ public class HomePage {
 
     // Hover on New Arrivals
     public void hoverOnNewArrivals() {
+        PopupHandler.closePopupIfPresent(driver);
         LoggerManager.info("Waiting for New Arrivals menu");
         wait.until(ExpectedConditions.visibilityOf(newArrivalsMenu));
         LoggerManager.info("Hovering on New Arrivals menu");
@@ -77,6 +79,22 @@ public class HomePage {
             itemsText.add(text);
         }
         return itemsText;
+    }
+
+    public void clickTerraCollection() {
+        LoggerManager.info("Waiting for Terra Collection option");
+        wait.until(ExpectedConditions.visibilityOf(terraCollection));
+        LoggerManager.info("Clicking Terra Collection");
+        ExtentReportManager.getTest().info("Clicking Terra Collection");
+        terraCollection.click();
+    }
+
+    public boolean isTerraCollectionPageDisplayed() {
+        LoggerManager.info("Validating Terra Collection page");
+        wait.until(ExpectedConditions.urlContains("new-terra-collection"));
+        String currentUrl = driver.getCurrentUrl();
+        LoggerManager.info("Current URL: " + currentUrl);
+        return currentUrl.contains("new-terra-collection");
     }
 
     // Click Terra Bedroom
