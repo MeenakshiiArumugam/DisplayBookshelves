@@ -2799,3 +2799,30 @@ Session ID: b9dced6c79133aa66a09f8f15a804a49
 2026-07-03 09:18:04 INFO  utils.LoggerManager - Product Image URL : https://cdn.swadeshonline.com/v2/patient-paper-41f385/swad-p/wrkr/products/pictures/item/free/450x0/PQc-XAw0n-a.jpg
 2026-07-03 09:18:08 INFO  utils.LoggerManager - Browser closed successfully
 2026-07-03 09:18:08 INFO  utils.LoggerManager - ===== Test Finished =====
+2026-07-03 11:48:37 INFO  utils.LoggerManager - ===== Test Started =====
+2026-07-03 11:48:37 INFO  utils.LoggerManager - Initializing browser : chrome
+2026-07-03 11:48:47 INFO  utils.LoggerManager - Chrome browser launched
+2026-07-03 11:49:15 INFO  utils.LoggerManager - Navigated to: https://www.urbanladder.com/
+2026-07-03 11:49:15 INFO  utils.LoggerManager - Popup closed
+2026-07-03 11:49:15 INFO  utils.LoggerManager - Starting TC_03 - Filter by Open Storage
+2026-07-03 11:49:15 INFO  utils.LoggerManager - Waiting for search box
+2026-07-03 11:49:16 INFO  utils.LoggerManager - Clicking search box
+2026-07-03 11:49:16 INFO  utils.LoggerManager - Typing Bookshelves
+2026-07-03 11:49:16 INFO  utils.LoggerManager - Pressing Enter
+2026-07-03 11:49:17 INFO  utils.LoggerManager - Bookshelves searched
+2026-07-03 11:49:17 INFO  utils.LoggerManager - Clicking All Filters button
+2026-07-03 11:49:17 INFO  utils.LoggerManager - Filters panel opened successfully
+2026-07-03 11:49:17 INFO  utils.LoggerManager - Filters opened
+2026-07-03 11:49:17 INFO  utils.LoggerManager - Scrolling inside All Filters panel
+2026-07-03 11:49:17 INFO  utils.LoggerManager - Clicking Storage Type
+2026-07-03 11:49:17 INFO  utils.LoggerManager - Storage Type expanded
+2026-07-03 11:49:17 INFO  utils.LoggerManager - Selecting Open Storage
+2026-07-03 11:49:18 INFO  utils.LoggerManager - Open Storage selected successfully
+2026-07-03 11:49:18 INFO  utils.LoggerManager - Open Storage selected
+2026-07-03 11:49:18 INFO  utils.LoggerManager - Clicking Apply Filter button
+2026-07-03 11:49:18 INFO  utils.LoggerManager - Filters applied successfully
+2026-07-03 11:49:18 INFO  utils.LoggerManager - Filters applied
+2026-07-03 11:49:19 INFO  utils.LoggerManager - Count text found: 123 Products
+2026-07-03 11:49:19 INFO  utils.LoggerManager - TC_03 Completed Successfully 
+2026-07-03 11:49:24 INFO  utils.LoggerManager - Browser closed successfully
+2026-07-03 11:49:24 INFO  utils.LoggerManager - ===== Test Finished =====

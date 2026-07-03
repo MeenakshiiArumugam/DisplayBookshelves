@@ -12,7 +12,6 @@ public class TC_01_BookshelvesSearchTest extends BaseTest {
 
     @Test
     public void verifyBookshelvesSearch() {
-
         LoggerManager.info("Starting TC_01");
         ExtentReportManager.getTest().info("Launching Bookshelves search test");
         BookshelvesPage page = new BookshelvesPage(driver);

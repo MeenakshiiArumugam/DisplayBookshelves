@@ -15,7 +15,6 @@ public class TC_05_BookshelfNameAndPriceDisplayTestOfThree extends BaseTest {
 
     @Test
     public void displayTopThreeBookshelves() {
-
         ExtentReportManager.createTest("TC_05 - Display Top 3 Bookshelves Name and Price");
         BookshelvesPage page = new BookshelvesPage(driver);
         LoggerManager.info("Starting TC_05");
@@ -28,19 +27,14 @@ public class TC_05_BookshelfNameAndPriceDisplayTestOfThree extends BaseTest {
         ExtentReportManager.getTest().log(Status.INFO, "Selected Open Storage");
         page.applyFilters();
         ExtentReportManager.getTest().log(Status.INFO, "Applied Filters");
-        //Fetch data
+        //Fetching the data
         List<String> names = page.getTopThreeBookshelfNames();
         List<String> prices = page.getTopThreeBookshelfPrices();
-        //Assertion
         Assert.assertEquals(names.size(), 3);
         Assert.assertEquals(prices.size(), 3);
-        //Excel write
         ExcelUtils.writeBookshelfData(names, prices);
-        //Logging results
         for (int i = 0; i < 3; i++) {
-            String result = "Bookshelf " + (i+1) +
-                    " → Name: " + names.get(i) +
-                    " | Price: " + prices.get(i);
+            String result = "Bookshelf " + (i+1) + " → Name: " + names.get(i) + " | Price: " + prices.get(i);
             LoggerManager.info(result);
             ExtentReportManager.getTest().log(Status.PASS, result);
         }

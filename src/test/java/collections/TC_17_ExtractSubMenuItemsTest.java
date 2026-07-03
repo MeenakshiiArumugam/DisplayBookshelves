@@ -12,7 +12,6 @@ import utils.ExcelUtils;
 public class TC_17_ExtractSubMenuItemsTest extends BaseTest{
     @Test
     public void captureTerraCollectionData() {
-
         LoggerManager.info("Starting TC - Capture Terra Collection Data");
         ExtentReportManager.getTest().info("Test started");
         HomePage homePage = new HomePage(driver);

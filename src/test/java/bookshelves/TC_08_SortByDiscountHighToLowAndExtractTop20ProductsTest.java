@@ -14,7 +14,6 @@ public class TC_08_SortByDiscountHighToLowAndExtractTop20ProductsTest
 
     @Test
     public void sortByDiscountAndExtractTop20Products() {
-
         LoggerManager.info("Starting TC_08 - Discount High To Low Extraction");
         BookshelvesPage page = new BookshelvesPage(driver);
         ExtentReportManager.getTest().info("Searching Bookshelves");

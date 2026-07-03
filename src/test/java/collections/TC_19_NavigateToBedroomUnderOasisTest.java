@@ -12,7 +12,6 @@ import utils.LoggerManager;
 public class TC_19_NavigateToBedroomUnderOasisTest extends BaseTest{
     @Test
     public void verifyTerraBedroomNavigation() {
-
         LoggerManager.info("Starting TC - Terra Bedroom Navigation");
         ExtentReportManager.getTest().info("Test started");
         HomePage homePage = new HomePage(driver);

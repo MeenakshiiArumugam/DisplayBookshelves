@@ -16,11 +16,9 @@ public class TC_20_GetNoOfBedroomCollection extends BaseTest {
         ExtentReportManager.getTest().info("Test started");
         HomePage homePage = new HomePage(driver);
         homePage.hoverOnNewArrivals();
-        Assert.assertTrue(homePage.isNewArrivalsDropdownDisplayed(),
-                "New Arrivals dropdown not displayed");
+        Assert.assertTrue(homePage.isNewArrivalsDropdownDisplayed(), "New Arrivals dropdown not displayed");
         homePage.clickTerraBedroom();
-        Assert.assertTrue(homePage.isTerraBedroomPageDisplayed(),
-                "Terra Bedroom page not displayed");
+        Assert.assertTrue(homePage.isTerraBedroomPageDisplayed(), "Terra Bedroom page not displayed");
         TerraBedroomPage page = new TerraBedroomPage(driver);
         page.applyFiltersUsingAllFilters();
         int productCount = page.getProductListSize();

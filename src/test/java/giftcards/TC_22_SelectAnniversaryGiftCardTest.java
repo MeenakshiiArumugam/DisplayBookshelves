@@ -13,7 +13,6 @@ public class TC_22_SelectAnniversaryGiftCardTest extends BaseTest {
 
     @Test
     public void selectAnniversaryCard() {
-
         ExtentReportManager.createTest("TC_22 - Select Anniversary Gift Card");
         LoggerManager.info("Starting TC_22");
         ExtentReportManager.getTest().log(Status.INFO, "Test started");
