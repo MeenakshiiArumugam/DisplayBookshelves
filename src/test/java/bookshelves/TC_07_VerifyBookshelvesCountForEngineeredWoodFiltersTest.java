@@ -37,9 +37,7 @@ public class TC_07_VerifyBookshelvesCountForEngineeredWoodFiltersTest extends Ba
         LoggerManager.info("Filters applied successfully");
         // Step 6 : Fetch Product Count
         int productCount = page.getProductsCountAfterMaterialFilters();
-        LoggerManager.info(
-                "Number of products displayed after applying filters: "
-                        + productCount);
+        LoggerManager.info("Number of products displayed after applying filters: " + productCount);
         ExtentReportManager.getTest().pass(
                 "Product count retrieved successfully: " + productCount);
         Assert.assertTrue(productCount > 0,

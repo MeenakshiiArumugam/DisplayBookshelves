@@ -44,7 +44,7 @@ public class TC_05_BookshelfNameAndPriceDisplayTestOfThree extends BaseTest {
             LoggerManager.info(result);
             ExtentReportManager.getTest().log(Status.PASS, result);
         }
-        LoggerManager.info("TC_05 Completed Successfully ✅");
+        LoggerManager.info("TC_05 Completed Successfully");
     }
 }
 

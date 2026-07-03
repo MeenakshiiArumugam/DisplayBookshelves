@@ -14,12 +14,8 @@ public class TC_09_NavigateToBookshelfProductPageTest extends BaseTest {
         LoggerManager.info("Starting TC_09");
         BookshelvesPage page = new BookshelvesPage(driver);
         page.clickBookshelvesCategory();
-        Assert.assertTrue(
-                page.isBookshelvesPageDisplayed(),
-                "Failed to navigate to Bookshelves page");
-        ExtentReportManager.getTest()
-                .pass("Successfully navigated to Bookshelves page");
-        LoggerManager.info(
-                "Successfully navigated to Bookshelves page");
+        Assert.assertTrue(page.isBookshelvesPageDisplayed(), "Failed to navigate to Bookshelves page");
+        ExtentReportManager.getTest().pass("Successfully navigated to Bookshelves page");
+        LoggerManager.info("Successfully navigated to Bookshelves page");
     }
 }

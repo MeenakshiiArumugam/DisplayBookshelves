@@ -2742,3 +2742,60 @@ Session ID: b9dced6c79133aa66a09f8f15a804a49
 2026-07-02 22:43:35 INFO  utils.LoggerManager - Product Image URL : https://cdn.swadeshonline.com/v2/patient-paper-41f385/swad-p/wrkr/products/pictures/item/free/450x0/PQc-XAw0n-a.jpg
 2026-07-02 22:43:39 INFO  utils.LoggerManager - Browser closed successfully
 2026-07-02 22:43:39 INFO  utils.LoggerManager - ===== Test Finished =====
+2026-07-03 09:07:59 INFO  utils.LoggerManager - ===== Test Started =====
+2026-07-03 09:07:59 INFO  utils.LoggerManager - Initializing browser : chrome
+2026-07-03 09:08:01 INFO  utils.LoggerManager - ===== Test Started =====
+2026-07-03 09:08:01 INFO  utils.LoggerManager - Initializing browser : chrome
+2026-07-03 09:08:06 INFO  utils.LoggerManager - Chrome browser launched
+2026-07-03 09:08:08 INFO  utils.LoggerManager - Chrome browser launched
+2026-07-03 09:08:26 INFO  utils.LoggerManager - Navigated to: https://www.urbanladder.com/
+2026-07-03 09:08:26 INFO  utils.LoggerManager - Starting TC_10
+2026-07-03 09:08:27 INFO  utils.LoggerManager - Waiting for search box
+2026-07-03 09:08:27 INFO  utils.LoggerManager - Navigated to: https://www.urbanladder.com/
+2026-07-03 09:08:27 INFO  utils.LoggerManager - Starting TC_10
+2026-07-03 09:08:29 INFO  utils.LoggerManager - Popup closed
+2026-07-03 09:08:29 INFO  utils.LoggerManager - Waiting for search box
+2026-07-03 09:08:30 INFO  utils.LoggerManager - Clicking search box
+2026-07-03 09:08:30 INFO  utils.LoggerManager - Typing Bookshelves
+2026-07-03 09:08:31 INFO  utils.LoggerManager - Pressing Enter
+2026-07-03 09:08:31 INFO  utils.LoggerManager - Clicking search box
+2026-07-03 09:08:31 INFO  utils.LoggerManager - Typing Bookshelves
+2026-07-03 09:08:32 INFO  utils.LoggerManager - Pressing Enter
+2026-07-03 09:08:33 INFO  utils.LoggerManager - Product Image URL : https://cdn.swadeshonline.com/v2/patient-paper-41f385/swad-p/wrkr/products/pictures/item/free/450x0/PQc-XAw0n-a.jpg
+2026-07-03 09:08:34 INFO  utils.LoggerManager - Product Image URL : https://cdn.swadeshonline.com/v2/patient-paper-41f385/swad-p/wrkr/products/pictures/item/free/450x0/PQc-XAw0n-a.jpg
+2026-07-03 09:08:42 INFO  utils.LoggerManager - Browser closed successfully
+2026-07-03 09:08:42 INFO  utils.LoggerManager - ===== Test Finished =====
+2026-07-03 09:08:43 INFO  utils.LoggerManager - Browser closed successfully
+2026-07-03 09:08:43 INFO  utils.LoggerManager - ===== Test Finished =====
+2026-07-03 09:14:03 INFO  utils.LoggerManager - ===== Test Started =====
+2026-07-03 09:14:03 INFO  utils.LoggerManager - Initializing browser : chrome
+2026-07-03 09:14:07 INFO  utils.LoggerManager - Chrome browser launched
+2026-07-03 09:14:15 INFO  utils.LoggerManager - Navigated to: https://www.urbanladder.com/
+2026-07-03 09:14:15 INFO  utils.LoggerManager - Starting TC_08 - Discount High To Low Extraction
+2026-07-03 09:14:15 INFO  utils.LoggerManager - Waiting for search box
+2026-07-03 09:14:15 INFO  utils.LoggerManager - Clicking search box
+2026-07-03 09:14:15 INFO  utils.LoggerManager - Typing Bookshelves
+2026-07-03 09:14:15 INFO  utils.LoggerManager - Pressing Enter
+2026-07-03 09:14:16 INFO  utils.LoggerManager - Popup closed
+2026-07-03 09:14:16 INFO  utils.LoggerManager - Clicking Sort By
+2026-07-03 09:14:16 INFO  utils.LoggerManager - Selecting Discount High To Low
+2026-07-03 09:14:16 INFO  utils.LoggerManager - Discount sorting applied
+2026-07-03 09:14:18 INFO  utils.LoggerManager - Minimum 20 products loaded
+2026-07-03 09:14:21 INFO  utils.LoggerManager - Extracted 20 products with discounts
+2026-07-03 09:14:21 INFO  utils.LoggerManager - Total products extracted : 20
+2026-07-03 09:14:23 INFO  utils.LoggerManager - Discount data written successfully
+2026-07-03 09:14:30 INFO  utils.LoggerManager - Browser closed successfully
+2026-07-03 09:14:30 INFO  utils.LoggerManager - ===== Test Finished =====
+2026-07-03 09:17:50 INFO  utils.LoggerManager - ===== Test Started =====
+2026-07-03 09:17:50 INFO  utils.LoggerManager - Initializing browser : chrome
+2026-07-03 09:17:53 INFO  utils.LoggerManager - Chrome browser launched
+2026-07-03 09:18:00 INFO  utils.LoggerManager - Navigated to: https://www.urbanladder.com/
+2026-07-03 09:18:00 INFO  utils.LoggerManager - Starting TC_10
+2026-07-03 09:18:00 INFO  utils.LoggerManager - Waiting for search box
+2026-07-03 09:18:01 INFO  utils.LoggerManager - Clicking search box
+2026-07-03 09:18:01 INFO  utils.LoggerManager - Typing Bookshelves
+2026-07-03 09:18:02 INFO  utils.LoggerManager - Pressing Enter
+2026-07-03 09:18:04 INFO  utils.LoggerManager - Product Image URL written successfully
+2026-07-03 09:18:04 INFO  utils.LoggerManager - Product Image URL : https://cdn.swadeshonline.com/v2/patient-paper-41f385/swad-p/wrkr/products/pictures/item/free/450x0/PQc-XAw0n-a.jpg
+2026-07-03 09:18:08 INFO  utils.LoggerManager - Browser closed successfully
+2026-07-03 09:18:08 INFO  utils.LoggerManager - ===== Test Finished =====

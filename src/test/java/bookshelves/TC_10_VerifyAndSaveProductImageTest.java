@@ -6,6 +6,7 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 import utils.ExtentReportManager;
 import utils.LoggerManager;
+import utils.ExcelUtils;
 
 public class TC_10_VerifyAndSaveProductImageTest extends BaseTest {
 
@@ -15,14 +16,10 @@ public class TC_10_VerifyAndSaveProductImageTest extends BaseTest {
         BookshelvesPage page = new BookshelvesPage(driver);
         page.searchBookshelves();
         String imageUrl = page.getFirstProductImageUrl();
-        Assert.assertFalse(
-                imageUrl.isEmpty(),
-                "Product image URL is empty");
-        LoggerManager.info(
-                "Product Image URL : " + imageUrl);
-        ExtentReportManager.getTest()
-                .info("Product Image URL : " + imageUrl);
-        ExtentReportManager.getTest()
-                .pass("Product image verified successfully");
+        ExcelUtils.writeProductImageUrl(imageUrl);
+        Assert.assertFalse(imageUrl.isEmpty(), "Product image URL is empty");
+        LoggerManager.info("Product Image URL : " + imageUrl);
+        ExtentReportManager.getTest().info("Product Image URL : " + imageUrl);
+        ExtentReportManager.getTest().pass("Product image verified successfully");
     }
 }

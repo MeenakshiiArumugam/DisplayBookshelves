@@ -130,4 +130,36 @@ public class ExcelUtils {
         }
         workbook.close();
     }
+
+    public static void writeProductImageUrl(String imageUrl) {
+        try {
+            XSSFWorkbook workbook = getWorkbook();
+
+            Sheet sheet = workbook.getSheet("Bookshelves");
+
+            int rowNum = sheet.getLastRowNum() + 3;
+
+            Row titleRow = sheet.createRow(rowNum++);
+            titleRow.createCell(0)
+                    .setCellValue("TC_10 - Product Image URL");
+
+            Row headerRow = sheet.createRow(rowNum++);
+            headerRow.createCell(0)
+                    .setCellValue("Image URL");
+
+            Row dataRow = sheet.createRow(rowNum);
+            dataRow.createCell(0)
+                    .setCellValue(imageUrl);
+
+            saveWorkbook(workbook);
+
+            LoggerManager.info(
+                    "Product Image URL written successfully");
+
+        } catch (Exception e) {
+
+            LoggerManager.error(
+                    "Excel writing failed : " + e.getMessage());
+        }
+    }
 }
