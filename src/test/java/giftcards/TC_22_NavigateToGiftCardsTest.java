@@ -18,11 +18,11 @@ public class TC_22_NavigateToGiftCardsTest extends BaseTest {
         ExtentReportManager.getTest().log(Status.INFO, "Test started");
         GiftCardsPage page = new GiftCardsPage(driver);
         page.clickGiftCards();
+
         ExtentReportManager.getTest().log(Status.INFO, "Clicked Gift Cards");
         page.switchToGiftCardWindow();
         ExtentReportManager.getTest().log(Status.INFO, "Switched to Gift Card page");
         boolean result = page.isGiftCardPageOpened();
         Assert.assertTrue(result, "Gift card page not opened");
-        ExtentReportManager.getTest().log(Status.PASS, "Navigated to Gift Card page successfully");
     }
 }

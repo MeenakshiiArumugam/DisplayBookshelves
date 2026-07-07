@@ -26,10 +26,8 @@ public class TC_25_SelectAnniversaryGiftCardTest extends BaseTest {
         ExtentReportManager.getTest().log(Status.INFO, "Navigated to Gift Card page");
         page.selectAnniversaryCard();
         ScreenshotUtils.capturePageScreenshot(driver, "TC_25_SelectAnniversaryGiftCardTest");
-
         ExtentReportManager.getTest().log(Status.INFO, "Clicked Anniversary card");
         boolean result = page.isAnniversaryCardSelected();
         Assert.assertTrue(result, "Anniversary card not selected");
-        ExtentReportManager.getTest().log(Status.PASS, "Clicked on Happy Anniversary card");
     }
 }

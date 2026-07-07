@@ -17,6 +17,5 @@ public class TC_12_GetNoOfStudyChairs extends BaseTest {
         int count = page.getStudyChairsCount();
         LoggerManager.info("Total Study Chairs Found : " + count);
         Assert.assertTrue(count > 0, "No Study Chairs found");
-        ExtentReportManager.getTest().pass("Study Chairs count fetched successfully ✅");
     }
 }

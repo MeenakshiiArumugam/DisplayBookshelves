@@ -29,6 +29,5 @@ public class TC_14_GetTopThreeStudyChairsTest extends BaseTest {
             ExtentReportManager.getTest().info(product);
         }
         Assert.assertEquals(topProducts.size(), 3, "Top 3 products are not displayed");
-        ExtentReportManager.getTest().pass("Top 3 products retrieved successfully");
     }
 }

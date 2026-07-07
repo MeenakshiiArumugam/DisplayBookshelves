@@ -20,6 +20,5 @@ public class TC_10_VerifyAndSaveProductImageTest extends BaseTest {
         Assert.assertFalse(imageUrl.isEmpty(), "Product image URL is empty");
         LoggerManager.info("Product Image URL : " + imageUrl);
         ExtentReportManager.getTest().info("Product Image URL : " + imageUrl);
-        ExtentReportManager.getTest().pass("Product image verified successfully");
     }
 }

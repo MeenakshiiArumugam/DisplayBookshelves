@@ -18,6 +18,5 @@ public class TC_11_SearchStudyChairsTest extends BaseTest {
         page.searchStudyChairs();
         boolean result = page.isStudyChairsPageDisplayed();
         Assert.assertTrue(result, "Study Chairs page not displayed");
-        ExtentReportManager.getTest().pass("Study Chairs page displayed successfully ✅");
     }
 }

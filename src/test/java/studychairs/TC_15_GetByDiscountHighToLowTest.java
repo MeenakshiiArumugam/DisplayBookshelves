@@ -18,12 +18,7 @@ public class TC_15_GetByDiscountHighToLowTest extends BaseTest {
         page.clickSortBy();
         page.selectDiscountHighToLow();
         page.printTopFiveDiscountProducts();
-        Assert.assertEquals(
-                page.getTopFiveProductsCount(),
-                5,
-                "Top 5 products are not displayed"
+        Assert.assertEquals(page.getTopFiveProductsCount(), 5, "Top 5 products are not displayed"
         );
-        ExtentReportManager.getTest()
-                .pass("Top 5 discounted products retrieved successfully ✅");
     }
 }

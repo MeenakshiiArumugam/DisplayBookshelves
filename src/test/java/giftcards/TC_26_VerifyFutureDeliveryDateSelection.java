@@ -44,6 +44,5 @@ public class TC_26_VerifyFutureDeliveryDateSelection extends BaseTest {
         ScreenshotUtils.capturePageScreenshot(driver, "TC_26_VerifyFutureDeliveryDateSelection");
         String expectedDate = "20/07/2026";
         Assert.assertEquals(page.getSelectedDeliveryDate(),expectedDate,"Selected delivery date does not match");
-        ExtentReportManager.getTest().log(Status.PASS,"Future delivery date selected successfully");
     }
 }

@@ -18,6 +18,5 @@ public class TC_13_SortByHighestRecommendationTest extends BaseTest {
         page.clickSortBy();
         page.selectPopularity();
         LoggerManager.info("Popularity selected successfully");
-        ExtentReportManager.getTest().pass("Popularity option selected successfully and sorted");
     }
 }
